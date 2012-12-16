@@ -1,0 +1,14 @@
+#TeXlipse project settings
+#Fri Dec 14 14:01:19 CET 2012
+markTmpDer=true
+builderNum=2
+outputDir=
+makeIndSty=
+bibrefDir=
+outputFormat=pdf
+tempDir=tmp
+mainTexFile=Hausarbeit.tex
+outputFile=Hausarbeit.pdf
+langSpell=de
+markDer=true
+srcDir=

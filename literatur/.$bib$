@@ -1,0 +1,523 @@
+% This file was created with JabRef 2.8.1.
+% Encoding: Cp1252
+
+@OTHER{3DVisionBlog.2009,
+  author = {{3D Vision Blog}},
+  owner = {Martin},
+  shorttitle = {What to Choose: IMAX 3D versus RealD versus Dolby 3D for 3D Movies?},
+  timestamp = {2012.11.12},
+  title = {What to Choose: IMAX 3D versus RealD versus Dolby 3D for 3D Movies?},
+  url = {http://3dvision-blog.com/what-to-choose-imax-3d-versus-reald-versus-dolby-3d-for-3d-movies/},
+  urldate = {05.02.2010},
+  year = {2009}
+}
+
+@OTHER{Bal.2009,
+  author = {Bal, Can},
+  owner = {Martin},
+  shorttitle = {Three-Dimensional Video Coding on Mobile},
+  timestamp = {2012.11.12},
+  title = {Three-Dimensional Video Coding on Mobile Platforms},
+  year = {2009}
+}
+
+@MISC{BlurayDiscAssociation.2009,
+  author = {{Blu-ray Disc Association}},
+  year = {2009},
+  owner = {Martin},
+  shorttitle = {Blu-ray Disc Association Provides Updates on 3D Technology},
+  timestamp = {2012.11.12},
+  url = {http://us.blu-raydisc.com/},
+  urldate = {05.01.2010}
+}
+
+@BOOK{Cook.1996,
+  title = {A history of narrative film},
+  publisher = {Norton},
+  year = {1996},
+  author = {Cook, David A.},
+  address = {New York},
+  edition = {3. ed.},
+  isbn = {0-393-96819-7},
+  owner = {Martin},
+  shorttitle = {Cook 1996 -- A history of narrative film},
+  timestamp = {2012.11.12}
+}
+
+@BOOKLET{Eisert.2006,
+  title = {Free View Point Video - der n\"achste Schritt in der Unterhaltungselektronik},
+  author = {Eisert, Peter and Kauff, Peter and Smolic, Aljoscha and Sch\"afer,
+	Ralf},
+  year = {2006},
+  owner = {Martin},
+  shorttitle = {Free View Point Video},
+  timestamp = {2012.11.12},
+  url = {http://iphome.hhi.de/eisert/papers/fktg2006.pdf},
+  urldate = {08.02.2010}
+}
+
+@BOOKLET{Frank.,
+  title = {Stereoskopische HD-Produktion},
+  author = {Frank, Anja},
+  owner = {Martin},
+  shorttitle = {Frank -- Stereoskopische HD-Produktion},
+  timestamp = {2012.11.12}
+}
+
+@BOOK{Gazetas2008,
+  title = {An Introduction to World Cinema},
+  year = {2008},
+  author = {Gazetas, Aristides},
+  isbn = {0786439076},
+  keywords = {Motion pictures;History;Motion pictures History;Film;Geschichte;Einf\"uhrung},
+  owner = {Martin},
+  price = {alk. paper},
+  shorttitle = {An Introduction to World Cinema},
+  timestamp = {2012.11.12}
+}
+
+@BOOK{Hanzo.2007,
+  title = {Video compression and communications: From basics to H.261, H.263,
+	H.264, MPEG4 for DVB and HSDPA-style adaptive turbo-transceivers},
+  publisher = {Wiley},
+  year = {2007},
+  author = {Hanzo, Lajos and Cherriman, Peter J. and Streit, J\"urgen},
+  address = {Chichester},
+  edition = {2. ed.},
+  isbn = {9780470518496},
+  owner = {Martin},
+  price = {\pounds95,00},
+  shorttitle = {Hanzo, Cherriman et al. 2007 -- Video compression and communications},
+  timestamp = {2012.11.12},
+  url = {http://www.gbv.de/dms/ilmenau/toc/531727254.PDF / http://www.loc.gov/catdir/toc/ecip0720/2007024178.html / http://www.loc.gov/catdir/enhancements/fy0741/2007024178-d.html}
+}
+
+@OTHER{Hart.2010,
+  author = {Hart and Steve},
+  owner = {Martin},
+  shorttitle = {A new dimension for JDSU},
+  timestamp = {2012.11.12},
+  title = {A new dimension for JDSU},
+  url = {http://www.pressdemocrat.com/article/20100107/BUSINESS/100109653/1036?Title=A-new-dimension-for-JDSU},
+  urldate = {09.01.2010},
+  year = {2010}
+}
+
+@BOOKLET{Hofmeyer.,
+  title = {Analyse und prototypische Umsetzung eines Prozesses zur stereoskopischen
+	Fusion von CG-Environments und Real-Footage Elementen.},
+  author = {Hofmeyer, Frank},
+  owner = {Martin},
+  shorttitle = {Hofmeyer -- Analyse und prototypische Umsetzung},
+  timestamp = {2012.11.12}
+}
+
+@MISC{Hottong.2009,
+  author = {Hottong, Nikolaus},
+  title = {Digitale AV--Technik WS 09/10},
+  year = {2009},
+  owner = {Martin},
+  shorttitle = {Digitale AV--Technik},
+  timestamp = {2012.11.12}
+}
+
+@OTHER{http:www.stereo3d.com.2005,
+  author = {http://www.stereo3d.com},
+  owner = {Martin},
+  shorttitle = {http://www.stereo3d.com 2005 -- Sensio format},
+  timestamp = {2012.11.12},
+  title = {Sensio format},
+  urldate = {01.02.2010},
+  year = {2005}
+}
+
+@OTHER{Janssen.2009b,
+  author = {Janssen, Jan-Keno},
+  editor = {{Heise Online}},
+  owner = {Martin},
+  shorttitle = {3D-Standard f\"ur DVD},
+  timestamp = {2012.11.12},
+  title = {3D-Standard f\"ur DVD},
+  url = {http://www.heise.de/newsticker/meldung/3D-Standard-fuer-DVD-203047.html},
+  urldate = {04.01.2010},
+  year = {2009}
+}
+
+@PERIODICAL{Janssen.2009,
+  title = {c't 15/2009 - R\"aumlich am Rechner},
+  year = {2009},
+  author = {Janssen, Jan-Keno},
+  owner = {Martin},
+  pages = {84-89},
+  shorttitle = {c't 15/2009 -- R\"aumlich am Rechner},
+  timestamp = {2012.11.12}
+}
+
+@BOOKLET{Citavi.46,
+  title = {MVC Software Manual},
+  author = {{Joint Video Team}},
+  year = {2009},
+  owner = {Martin},
+  shorttitle = {MVC Software Manual},
+  timestamp = {2012.11.12}
+}
+
+@BOOK{Judge.2007,
+  title = {Stereoscopic Photography},
+  year = {2007},
+  author = {Judge, Arthur W.},
+  isbn = {1406771724},
+  owner = {Martin},
+  price = {30.95 USD},
+  shorttitle = {Stereoscopic Photography},
+  timestamp = {2012.11.12}
+}
+
+@OTHER{Kay.2005,
+  author = {Kay, Jeremie},
+  owner = {Martin},
+  shorttitle = {Chicken Little to get the 3-D treatment Down Under},
+  timestamp = {2012.11.12},
+  title = {Chicken Little to get the 3-D treatment Down Under},
+  url = {http://www.screendaily.com/chicken-little-to-get-the-3-d-treatment-down-under/4025569.article},
+  urldate = {23.12.2009},
+  year = {2005}
+}
+
+@BOOK{Lipton.1982,
+  title = {Foundations of the Stereoscopic Cinema},
+  year = {1982},
+  author = {Lipton, Lenny},
+  isbn = {0442247249},
+  owner = {Martin},
+  shorttitle = {Foundations of the Stereoscopic Cinema},
+  timestamp = {2012.11.12}
+}
+
+@OTHER{Maddox.2009,
+  author = {Maddox, Garry},
+  owner = {Martin},
+  shorttitle = {Specs sells: Why 3D Movies have become the Real Thing},
+  timestamp = {2012.11.12},
+  title = {Specs sells: Why 3D Movies have become the Real Thing},
+  url = {http://www.watoday.com.au/digital-life/digital-life-news/specs-sells-why-3d-movies-have-become-the-real-thing-20090914-fmpd.html},
+  urldate = {05.01.2010},
+  year = {2009}
+}
+
+@BOOK{Marien.2002,
+  title = {Photography},
+  year = {2002},
+  author = {Marien, Mary Warner},
+  isbn = {0-13-183297-2},
+  owner = {Martin},
+  shorttitle = {Photography},
+  timestamp = {2012.11.12}
+}
+
+@BOOKLET{MartinezIbanez.2003,
+  title = {MPEG 3DAV AhG Activities Report},
+  author = {Martinez-Iba\~nez, Jose M.},
+  year = {2003},
+  owner = {Martin},
+  shorttitle = {MPEG 3DAV AhG Activities Report},
+  timestamp = {2012.11.12},
+  url = {http://www.iti.gr/SCHEMA/preview.html?file_id=106},
+  urldate = {05.02.2010}
+}
+
+@OTHER{MattCowan.2007,
+  author = {{Matt Cowan}},
+  owner = {Martin},
+  shorttitle = {RealD 3D Theatrical System},
+  timestamp = {2012.11.12},
+  title = {RealD 3D Theatrical System},
+  url = {http://www.edcf.net/edcf_docs/real-d.pdf},
+  urldate = {16.02.2010},
+  year = {2007}
+}
+
+@BOOK{Mendiburu.2009,
+  title = {3D Movie Making: Stereoscopic Digital Cinema from Script to Screen},
+  year = {2009},
+  author = {Mendiburu, Bernard},
+  owner = {Martin},
+  shorttitle = {3D Movie Making},
+  timestamp = {2012.11.12}
+}
+
+@BOOKLET{Merkle.2006,
+  title = {Efficient Prediction Structures for Multi-view Video Coding},
+  author = {Merkle, Philipp and Smolic, Aljoscha and M\"uller, Kartsten and Wiegand,
+	Thomas},
+  year = {2006},
+  owner = {Martin},
+  shorttitle = {Efficient Prediction Structures for Multi-view Video Coding},
+  timestamp = {2012.11.12},
+  url = {http://ip.hhi.de/imagecom_G1/assets/pdfs/ieee07_Prediction_MVC.pdf},
+  urldate = {20.02.2010}
+}
+
+@OTHER{Ozaktas.2008,
+  author = {Ozaktas, Haldun M. and Onural, Levent},
+  keywords = {Dreidimensionales Fernsehen;Aufsatzsammlung;Computer vision;Engineering;Physical
+	optics;Telecommunication;Applied Optics, Optoelectronics, Optical
+	Devices;Communications Engineering, Networks;Image Processing and
+	Computer Vision;Signal, Image and Speech Processing},
+  owner = {Martin},
+  shorttitle = {Three-Dimensional Television},
+  timestamp = {2012.11.12},
+  title = {Three-Dimensional Television},
+  year = {2008}
+}
+
+@BOOKLET{Pereira.2006,
+  title = {Distributed Coding for Video Services},
+  author = {Pereira, Fernando and Guillemot, Christine and Leonardi, Ricardo
+	and Ostermann, J\"orn and Ebrahimi, Touradj and Torres, Luis},
+  year = {2006},
+  owner = {Martin},
+  shorttitle = {Distributed Coding for Vdeo Services},
+  timestamp = {2012.11.12},
+  url = {http://www.discoverdvc.org/deliverables/Discover-D7.pdf},
+  urldate = {19.12.2009}
+}
+
+@OTHER{Pracht.2009,
+  author = {Pracht, Adam},
+  owner = {Martin},
+  shorttitle = {How 3D Movies Work},
+  timestamp = {2012.11.12},
+  title = {How 3D Movies Work With Digital Technology},
+  url = {http://filmtvindustry.suite101.com/article.cfm/how_3d_movies_work_with_digital_technology},
+  urldate = {09.01.2010},
+  year = {2009}
+}
+
+@BOOK{Roder.2007,
+  title = {Grundlagen der Stereoskopie - Analyse der Aufnahme und Projektion
+	von 3-D Bildern},
+  year = {2007},
+  author = {R\"oder, Oliver},
+  isbn = {9783836411820},
+  keywords = {Stereoskopie},
+  owner = {Martin},
+  price = {EUR 42.00, sfr 67.00},
+  shorttitle = {Grundlagen der Stereoskopie},
+  timestamp = {2012.11.12}
+}
+
+@BOOK{Richardson.2008,
+  title = {H.264 and MPEG-4 Video Compression - Video Coding for Next-Generation
+	Multimedia},
+  year = {2008},
+  author = {Richardson, Iain E.},
+  keywords = {Cold roll forming;Quantisation;Compression;standards;Standard;measurement;Image
+	coding;reviews;Visual;Video codec;Core;Motion estimation;Video coding;Computer
+	animation;Motion compensation},
+  owner = {Martin},
+  shorttitle = {H.264 and MPEG-4 Video Compression},
+  timestamp = {2012.11.12}
+}
+
+@PERIODICAL{Schwarz.b,
+  title = {Overview of the Scalable Video Coding Extension of the H.264/AVC
+	Standard},
+  author = {Schwarz, Heiko and Marpe, Detlev and Wiegand, Thomas},
+  journal = {IEEE Transactions on Circuits and Systems for Video Technology},
+  owner = {Martin},
+  shorttitle = {Schwarz, Marpe et al. -- Overview of the Scalable Video},
+  timestamp = {2012.11.12}
+}
+
+@OTHER{Schwarz.,
+  author = {Schwarz, Heiko and Wiegand, Thomas},
+  editor = {{Fraunhofer Heinrich Hertz Institute}},
+  owner = {Martin},
+  shorttitle = {[Kurztitel fehlt!]},
+  timestamp = {2012.11.12},
+  url = {http://ip.hhi.de/imagecom_G1/savce/index.htm}
+}
+
+@BOOK{Scott.2005,
+  title = {On Hollywood - The Place, The Industry},
+  year = {2005},
+  author = {Scott, Allen John},
+  isbn = {9780691116839},
+  keywords = {Motion picture industry;History;Filmwirtschaft;Geschichte;Regionale
+	Konzentration;Industriestandort;Globalisierung;Kalifornien;USA;Welt;Los
+	Angeles (Calif.);Los Angeles- Hollywood;Motion picture industry California
+	Los Angeles History},
+  owner = {Martin},
+  price = {alk. paper},
+  shorttitle = {On Hollywood},
+  timestamp = {2012.11.12}
+}
+
+@OTHER{Tabataba.,
+  author = {Tabataba, Ali},
+  owner = {Martin},
+  shorttitle = {Tabataba -- AVC/H.264 Advanced Video Coding},
+  timestamp = {2012.11.12},
+  title = {AVC/H.264 Advanced Video Coding. Codec, Profiles \& System},
+  url = {http://ewh.ieee.org/r6/scv/ce/meetings/IEEE_Talk_Oct25051.pdf}
+}
+
+@BOOK{Taylor.2001,
+  title = {DVD Demystified},
+  year = {2001},
+  author = {Taylor, Jim},
+  isbn = {0071350268},
+  keywords = {DVD;DVDs},
+  owner = {Martin},
+  shorttitle = {DVD Demystified},
+  timestamp = {2012.11.12}
+}
+
+@OTHER{Umble.2008,
+  author = {Umble, Eden Ashley},
+  owner = {Martin},
+  shorttitle = {Making It Real: The Future of Stereoscopic 3D Film Technology},
+  timestamp = {2012.11.12},
+  title = {Making It Real: The Future of Stereoscopic 3D Film Technology},
+  url = {http://www.siggraph.org/publications/newsletter/volume-40-number-1/makingitreal},
+  urldate = {10.01.2010},
+  year = {2008}
+}
+
+@OTHER{Weise.2010,
+  author = {Weise and Elizabeth},
+  owner = {Martin},
+  shorttitle = {What happens to those 3-D glasses after 'Avatar'?},
+  timestamp = {2012.11.12},
+  title = {What happens to those 3-D glasses after 'Avatar'?},
+  url = {http://www.usatoday.com/tech/science/environment/2010-02-02-Avatar02_ST_N.htm},
+  urldate = {12.02.2010},
+  year = {2010}
+}
+
+@OTHER{Wikipedia.,
+  author = {Wikipedia},
+  owner = {Martin},
+  shorttitle = {Wikipedia -- MPEG4-AVC},
+  timestamp = {2012.11.12},
+  title = {MPEG4-AVC},
+  url = {http://en.wikipedia.org/wiki/H.264/MPEG-4_AVC},
+  urldate = {23.02.2010}
+}
+
+@OTHER{Citavi.12,
+  author = {Wikipedia},
+  owner = {Martin},
+  shorttitle = {Wikipedia -- Stereoskopie},
+  timestamp = {2012.11.12},
+  title = {Stereoskopie},
+  year = {2010}
+}
+
+@OTHER{Wikipedia.2010,
+  author = {{Wikipedia - Pullrich-Effekt}},
+  owner = {Martin},
+  shorttitle = {Pullrich-Effekt},
+  timestamp = {2012.11.12},
+  title = {Pullrich-Effekt},
+  urldate = {01.02.2010.},
+  year = {2010}
+}
+
+@OTHER{Woods.,
+  author = {Woods, Andrew},
+  owner = {Martin},
+  shorttitle = {The Illustrated 3D Movie List},
+  timestamp = {2012.11.12},
+  title = {The Illustrated 3D Movie List},
+  url = {http://www.3dmovielist.com/list.html},
+  year = {Zugriff: 02.10.2010}
+}
+
+@OTHER{www.Stereoforum.org.2010,
+  author = {www.Stereoforum.org},
+  owner = {Martin},
+  shorttitle = {Anaglyphes 3D in zwei Streams konvertieren},
+  timestamp = {2012.11.12},
+  title = {Anaglyphes 3D in zwei Streams konvertieren},
+  url = {http://www.stereoforum.org/viewtopic.php?f=13&t=919},
+  year = {2010}
+}
+
+@BOOKLET{YingChen.,
+  title = {The Emerging MVC Standard for 3D Video Services},
+  author = {{Ying Chen} and {Ye-Kui Wang} and {Kemal Ugur} and {Miska M. Hannuksela}
+	and {Jani Lainema} and {Moncef Gabbouj}},
+  year = {2008},
+  owner = {Martin},
+  shorttitle = {The Emerging MVC Standard},
+  timestamp = {2012.11.12},
+  url = {http://www.hindawi.com/journals/asp/2009/786015.abs.html},
+  urldate = {23.01.2010}
+}
+
+@BOOKLET{YingChen.b,
+  title = {BUFFER REQUIREMENT ANALYSES FOR MULTIVIEW VIDEO CODING},
+  author = {{Ying Chen} and {Ye-Kui Wang} and {Moncef Gabbouj}},
+  owner = {Martin},
+  shorttitle = {Ying Chen, Ye-Kui Wang et al. -- BUFFER REQUIREMENT ANALYSES FOR MULTIVIEW},
+  timestamp = {2012.11.12}
+}
+
+@BOOK{Zone.2007,
+  title = {Stereoscopic cinema and the origins of 3-D film, 1838-1952},
+  publisher = {The University Press of Kentucky},
+  year = {2007},
+  author = {Zone, Ray},
+  address = {Lexington, Ky},
+  isbn = {9780813124612},
+  keywords = {3-D films;History;3-D films History;Stereoskopischer Film;Geschichte
+	1838-1952},
+  owner = {Martin},
+  price = {alk. paper},
+  shorttitle = {Stereoscopic cinema and the origins},
+  timestamp = {2012.11.12},
+  url = {http://www.loc.gov/catdir/toc/ecip0714/2007012691.html}
+}
+
+@BOOK{Zone.2005,
+  title = {3-D Filmmakers - Conversations with Creators of Stereoscopic Motion
+	Pictures},
+  year = {2005},
+  author = {Zone, Ray},
+  isbn = {0810854376},
+  keywords = {3-D films History;Motion picture producers and directors Interviews;Stereoskopischer
+	Film;Geschichte;Filmregisseur;Interview},
+  owner = {Martin},
+  shorttitle = {3-D Filmmakers},
+  timestamp = {2012.11.12}
+}
+
+@BOOK{Hottong.2008,
+  title = {Stereoskope HD-Produktion},
+  year = {2008},
+  editor = {Hottong, Nikolaus and Lesik, Dominik},
+  owner = {Martin},
+  shorttitle = {Hottong, Lesik (Hg.) -- Stereoskope HD-Produktion},
+  timestamp = {2012.11.12}
+}
+
+@BOOK{.2003,
+  title = {Digital video and HDTV: algorithms and interfaces},
+  year = {2003},
+  owner = {Martin},
+  shorttitle = {Digital video and HDTV 2003},
+  timestamp = {2012.11.12}
+}
+
+@comment{jabref-meta: selector_review:}
+
+@comment{jabref-meta: selector_publisher:}
+
+@comment{jabref-meta: selector_author:}
+
+@comment{jabref-meta: selector_journal:}
+
+@comment{jabref-meta: selector_keywords:}
+
