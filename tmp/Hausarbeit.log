@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.3.17)  16 DEC 2012 01:58
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.3.17)  20 DEC 2012 01:43
 entering extended mode
 **Hausarbeit.tex
 ("D:\Hochschule\WS 12 13\Streaming Media\Hausarbeit\Hausarbeit.tex"
@@ -602,6 +602,9 @@ Package biblatex Warning: 'babel' detected but 'csquotes' missing.
 
 LaTeX Warning: Label `fig:h264enkoder' multiply defined.
 
+
+LaTeX Warning: Label `fig:referenzencoder' multiply defined.
+
 )
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
@@ -731,11 +734,16 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 11.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 11.
+ [2
 
+
+
+
+]
 ! Undefined control sequence.
 <argument> \@Alpha 
                    \c@page 
-l.49 ...A}Abbildungsverzeichnis}{\@Alpha \c@page }
+l.53 ...A}Abbildungsverzeichnis}{\@Alpha \c@page }
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -746,7 +754,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.49 ...A}Abbildungsverzeichnis}{\@Alpha \c@page }
+l.53 ...A}Abbildungsverzeichnis}{\@Alpha \c@page }
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -755,7 +763,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Undefined control sequence.
 <argument> \@Alpha 
                    \c@page 
-l.51 ...numberline {B}Literatur}{\@Alpha \c@page }
+l.55 ...numberline {B}Literatur}{\@Alpha \c@page }
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -766,7 +774,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.51 ...numberline {B}Literatur}{\@Alpha \c@page }
+l.55 ...numberline {B}Literatur}{\@Alpha \c@page }
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -774,12 +782,7 @@ look up `weird error' in the index to The TeXbook.)
 
 )
 \tf@toc=\write5
- [1
-
-
-
-
-] [2]
+ [1]
 Kapitel 1.
 
 Class scrbook Warning: \float@addtolists detected!
@@ -899,11 +902,20 @@ rd-ner \T1/lmr/m/it/12 jsv-m/h264Extension/build/windows\T1/lmr/m/n/12 .
 [14
 
 ]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 432.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 433.
 
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
+<bilder/encoder/downConvert.PNG, id=96, 543.53062pt x 283.0575pt>
+File: bilder/encoder/downConvert.PNG Graphic file (type png)
+
+<use bilder/encoder/downConvert.PNG>
+Package pdftex.def Info: bilder/encoder/downConvert.PNG used on input line 450.
+
+(pdftex.def)             Requested size: 368.2937pt x 191.80708pt.
+ [15 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/encoder/downConv
+ert.PNG>] [16]
 
 ! Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
@@ -912,22 +924,22 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.442 ...144 SEQ_176x144_15.yuv 0 1 0 frms –phase 
-                                                  -1 0 -1 0
+l.496 $\textbf{H264AVCEncoderLibTestStatic}$ –pf 
+                                                 Konfigurationsdatei.cfg
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
-<bilder/encoder/encoderDone.PNG, id=96, 521.69907pt x 263.48438pt>
+<bilder/encoder/encoderDone.PNG, id=108, 521.69907pt x 263.48438pt>
 File: bilder/encoder/encoderDone.PNG Graphic file (type png)
 
 <use bilder/encoder/encoderDone.PNG>
-Package pdftex.def Info: bilder/encoder/encoderDone.PNG used on input line 455.
+Package pdftex.def Info: bilder/encoder/encoderDone.PNG used on input line 505.
 
 (pdftex.def)             Requested size: 414.32603pt x 209.25598pt.
- [15] [16 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/encoder/enc
-oderDone.PNG>]
+ [17 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/encoder/encoderD
+one.PNG>] [18]
 Kapitel 5.
-[17
+[19
 
 ]
 Anhang A.
@@ -937,7 +949,7 @@ Anhang A.
 ! Missing number, treated as zero.
 <to be read again> 
                    \relax 
-l.506 
+l.562 
       
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -950,7 +962,7 @@ Anhang B.
 ! Missing number, treated as zero.
 <to be read again> 
                    \relax 
-l.506 
+l.562 
       
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -967,7 +979,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.506 
+l.562 
       
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -975,7 +987,7 @@ or \DeclareInputMath before using this key.
 ! Missing number, treated as zero.
 <to be read again> 
                    \relax 
-l.506 
+l.562 
       
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -990,7 +1002,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.506 
+l.562 
       
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -998,7 +1010,7 @@ or \DeclareInputMath before using this key.
 ! Missing number, treated as zero.
 <to be read again> 
                    \relax 
-l.507 \end{document}
+l.563 \end{document}
                     
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -1012,13 +1024,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package logreq Info: Writing requests to 'Hausarbeit.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 11734 strings out of 494045
- 188394 string characters out of 3145966
- 392802 words of memory out of 3000000
- 14819 multiletter control sequences out of 15000+200000
+ 11742 strings out of 494045
+ 188585 string characters out of 3145966
+ 443802 words of memory out of 3000000
+ 14826 multiletter control sequences out of 15000+200000
  71743 words of font info for 51 fonts, out of 3000000 for 9000
  719 hyphenation exceptions out of 8191
- 45i,11n,60p,828b,2237s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,11n,60p,828b,3070s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files (x86)/
 MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}<C:/Program Files (x86)/MiKTeX 2.9/
@@ -1033,9 +1045,9 @@ blic/lm/lmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri1
 2.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:
 /Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Fi
 les (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Hausarbeit.pdf (24 pages, 1480333 bytes).
+Output written on Hausarbeit.pdf (26 pages, 1501578 bytes).
 PDF statistics:
- 168 PDF objects out of 1000 (max. 8388607)
+ 177 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

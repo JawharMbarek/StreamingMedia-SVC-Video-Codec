@@ -32,19 +32,23 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.1.1}Installation}{14}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2}Enkodieren}{15}
+\contentsline {subsection}{\numberline {4.1.2}Vorbereitung}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.3}Dekodieren}{15}
+\contentsline {subsection}{\numberline {4.1.3}Enkodieren}{16}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.4}Evaluation}{15}
+\contentsline {subsection}{\numberline {4.1.4}Dekodieren}{17}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Kommerzielle Anbieter/Verwendung}{16}
+\contentsline {subsection}{\numberline {4.1.5}Bitstreams extrahieren}{17}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Google Video}{16}
+\contentsline {subsection}{\numberline {4.1.6}Evaluation}{17}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Mainconcept SVC}{16}
+\contentsline {section}{\numberline {4.2}Kommerzielle Anbieter/Verwendung}{18}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Konklusion}{17}
+\contentsline {subsection}{\numberline {4.2.1}Google Video}{18}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.2}Mainconcept SVC}{18}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Konklusion}{19}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {A}Abbildungsverzeichnis}{\@Alpha \c@page }
 \defcounter {refsection}{0}\relax 

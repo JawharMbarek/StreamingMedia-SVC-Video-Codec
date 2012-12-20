@@ -429,26 +429,76 @@ Projektmappe erstellen} der Quellcode kompiliert.
 Nach erfolgreichem Kompilieren sind alle ausf¸hrbaren Progamme im Unterordner \textit{jmvc/bin} zu 
 finden.
 
-Testvideos kann man unter folgender URL downloaden: \url{ftp://ftp.tnt.uni-hannover.de/pub/svc/testsequences/}
+Die im Test verwendeten Beispielvideodatein kˆnnen als YUV-Dateien unter folgender URL downgeloadet werden:
+\url{ftp://ftp.tnt.uni-hannover.de/pub/svc/testsequences/}
 
-\subsection{Enkodieren}
-
+\subsection{Vorbereitung}
 Der Referenzeencoder benˆtig f¸r die Erstellung eines beliebigen skalierbaren Videostroms mehrere Versionen eines 
 Quellvideos, das sich in Bezug auf Bildgrˆﬂe, Framerate oder Bildqualit‰t unterscheidet. Da diese unterschiedlichen
 Versionen meist nicht vorliegen, besitzt der Referenzencoder bereits ein Unterprogramm zur Erstellung dieser
 Videodateien. Das Programm heiﬂt "`DownConvertStatic"' und wird mit folgender Syntax aufgerufen:
 
 \begin{lstlisting}[label=DownConvertStatic,caption=Aufruf DownConvertStatic ,captionpos=b,breaklines=true,mathescape=true]
-$\textbf{DownConvertStatic}$ 352 288 SEQ_352x288_30.yuv 176 144 SEQ_176x144_15.yuv 0 1 0 frms ñphase -1 0 -1 0
+$\textbf{DownConvertStatic}$ 352 2 88 bus_cif.yuv 176 144 bus_qcif.yuv
 \end{lstlisting}
 
-Anschlieﬂend befinden sich mehrere Videodatein mit unterschiedlicher spatialer Qualit‰t im  Verzeichniss.
+Anschlieﬂend befinden neben der urps¸nglichen YUV-Datei weitere Videodatein mit unterschiedlicher spatialer 
+Qualit‰t im  Verzeichniss.
 
-%\paragraph{Enkoder}
-%COnfig File
-%SIngle LAyer
-%Multi Layer
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=0.8\textwidth]{bilder/encoder/downConvert.PNG}
+	\caption[Referenzencoder]{Referenzencoder}
+	\label{fig:referenzencoder}
+\end{figure}
 
+\subsection{Enkodieren}
+Zur Erzeugung eines skalierbaren Videostroms werden mehrere Konfigurationsdateien benˆtigt. Einerseits wird
+eine allgemeine Konfigurationsdatei benˆtigt, in welcher die Einegnschaften der Quelldatei definiert werden.
+Dazu z‰hlen u.a. der Dateiname, die Auflˆsung, die zu enkodierenden Frames und die Grˆﬂe der Group of Pictures.
+Zus‰tzlich werden die layerspezifischen Konfigurationsdateien in dieser Konfigurationsdatei verlinkt.   
+
+\begin{lstlisting}[label=ConfigEncoder,caption=Konfigurationsdatei des Encoders ,captionpos=b,breaklines=true,mathescape=true]
+
+# JSVM Main Configuration File
+
+OutputFile          test.264   # Bitstream file
+FrameRate           30.0       # Maximum frame rate [Hz]
+FramesToBeEncoded   150        # Number of frames
+GOPSize             16         # GOP Size (at maximum frame rate)
+BaseLayerMode       2          # Base layer mode
+SearchMode          4          # Search mode
+SearchRange         32         # Search range (Full Pel)
+NumLayers           1          # Number of layers
+LayerCfg            layer0.cfg # Layer configuration file
+\end{lstlisting}
+
+Weiterhin wird f¸r jeden Layer eine zustzliche Konfigurationsdatei benˆtigt. In dieser spezifischen Datei werden 
+u.a. der Dateiname der herunterskalierten Quelldatei, die Auflˆsug, Bitrate und die Framerate f¸r diesen Layer 
+definiert.
+
+\begin{lstlisting}[label=ConfigLayer,caption=Konfigurationsdatei f¸r einen Layer ,captionpos=b,breaklines=true,mathescape=true]
+
+# JSVM Layer Configuration File
+
+InputFile           BUS_CIF30.yuv  # Input  file
+SourceWidth         352            # Input  frame width
+SourceHeight        288            # Input  frame height
+FrameRateIn         30             # Input  frame rate [Hz]
+FrameRateOut        30             # Output frame rate [Hz]
+InterLayerPred      2              # Inter-layer Pred.
+
+\end{lstlisting}
+
+Der Encoder \textbf{H264AVCEncoderLibTestStatic} wird ¸ber folgenden Befehl aufgerufen:
+
+\begin{lstlisting}[label=Encoder,caption=Aufruf H264AVCEncoderLibTestStatic ,captionpos=b,breaklines=true,mathescape=true]
+$\textbf{H264AVCEncoderLibTestStatic}$ ñpf Konfigurationsdatei.cfg
+\end{lstlisting}
+
+Wenn die Enkodierung erfolgreich abgeschlossen ist, gibt er Encoder anschlieﬂend eine Meldung ¸ber die 
+enkodierten und eingebetteten Layer aus. Die entsprechende enkodierte Videodatei befindet sich Im Verzeichniss 
+des Enkoders unde tr‰gt die Dateiendung .h264.
 
 \begin{figure}[htb]
 	\centering
@@ -457,8 +507,14 @@ Anschlieﬂend befinden sich mehrere Videodatein mit unterschiedlicher spatialer Q
 	\label{fig:referenzencoder}
 \end{figure}
 
-\subsection{Dekodieren}
+\subsection{Dekodieren}  
 
+\subsection{Bitstreams extrahieren}
+
+%\paragraph{Enkoder}
+%COnfig File
+%SIngle LAyer
+%Multi Layer
 
 \subsection{Evaluation}
 Inputfile muss unkomprimiertes YUV-Video sein --> Groﬂes Files, Umkodieren notwendig
