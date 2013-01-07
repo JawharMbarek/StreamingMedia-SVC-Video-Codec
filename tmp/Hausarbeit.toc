@@ -44,7 +44,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.2}Kommerzielle Anbieter/Verwendung}{18}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Google Video}{18}
+\contentsline {subsection}{\numberline {4.2.1}Google Talk}{18}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.2}Mainconcept SVC}{18}
 \defcounter {refsection}{0}\relax 
