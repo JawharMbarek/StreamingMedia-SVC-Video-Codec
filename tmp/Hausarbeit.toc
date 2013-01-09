@@ -50,6 +50,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.3}Open SVC Decoder}{21}
 \defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.4}SVC Stream Player}{21}
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Konklusion}{24}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {A}Abbildungsverzeichnis}{\@Alpha \c@page }

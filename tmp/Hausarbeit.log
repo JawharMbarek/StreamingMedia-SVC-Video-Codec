@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.3.17)  9 JAN 2013 03:55
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.3.17)  9 JAN 2013 04:53
 entering extended mode
 **Hausarbeit.tex
 ("D:\Hochschule\WS 12 13\Streaming Media\Hausarbeit\Hausarbeit.tex"
@@ -749,7 +749,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 ! Undefined control sequence.
 <argument> \@Alpha 
                    \c@page 
-l.55 ...A}Abbildungsverzeichnis}{\@Alpha \c@page }
+l.57 ...A}Abbildungsverzeichnis}{\@Alpha \c@page }
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -760,7 +760,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.55 ...A}Abbildungsverzeichnis}{\@Alpha \c@page }
+l.57 ...A}Abbildungsverzeichnis}{\@Alpha \c@page }
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -769,7 +769,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Undefined control sequence.
 <argument> \@Alpha 
                    \c@page 
-l.57 ...numberline {B}Literatur}{\@Alpha \c@page }
+l.59 ...numberline {B}Literatur}{\@Alpha \c@page }
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -780,7 +780,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.57 ...numberline {B}Literatur}{\@Alpha \c@page }
+l.59 ...numberline {B}Literatur}{\@Alpha \c@page }
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -943,27 +943,27 @@ l.515 $\textbf{H264AVCEncoderLibTestStaticd}$ –pf
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
-[17] <bilder/encoder/encoderDone.PNG, id=110, 521.69907pt x 263.48438pt>
-File: bilder/encoder/encoderDone.PNG Graphic file (type png)
+[17] <bilder/encoder/encoderDone2.jpg, id=110, 732.7375pt x 400.49625pt>
+File: bilder/encoder/encoderDone2.jpg Graphic file (type jpg)
 
-<use bilder/encoder/encoderDone.PNG>
-Package pdftex.def Info: bilder/encoder/encoderDone.PNG used on input line 528.
-
-(pdftex.def)             Requested size: 414.32603pt x 209.25598pt.
+<use bilder/encoder/encoderDone2.jpg>
+Package pdftex.def Info: bilder/encoder/encoderDone2.jpg used on input line 528
+.
+(pdftex.def)             Requested size: 414.32603pt x 226.46413pt.
 
 Overfull \hbox (97.68518pt too wide) in paragraph at lines 534--538
 \T1/lmr/m/n/12 pri-mier-tes YUV-Video an-ge-legt. Die De-ko-die-rung er-folgt m
 it dem Pro-gramm H264AVCDecoderLibTestStaticd
  []
 
-<bilder/encoder/dekodieren.jpg, id=112, 712.6625pt x 380.42125pt>
+<bilder/encoder/dekodieren.jpg, id=111, 712.6625pt x 380.42125pt>
 File: bilder/encoder/dekodieren.jpg Graphic file (type jpg)
 
 <use bilder/encoder/dekodieren.jpg>
 Package pdftex.def Info: bilder/encoder/dekodieren.jpg used on input line 545.
 (pdftex.def)             Requested size: 414.32603pt x 221.16689pt.
  [18 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/encoder/encoderD
-one.PNG>]
+one2.jpg>]
 
 ! Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
@@ -977,7 +977,7 @@ l.565 ...ticd}$ InputDatei.svc OutputDatei.sv –sl
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
-<bilder/encoder/bitstreamdebug.jpg, id=117, 722.7pt x 394.47375pt>
+<bilder/encoder/bitstreamdebug.jpg, id=115, 722.7pt x 394.47375pt>
 File: bilder/encoder/bitstreamdebug.jpg Graphic file (type jpg)
 
 <use bilder/encoder/bitstreamdebug.jpg>
@@ -985,7 +985,7 @@ Package pdftex.def Info: bilder/encoder/bitstreamdebug.jpg used on input line 5
 72.
 (pdftex.def)             Requested size: 414.32603pt x 226.15251pt.
 
-<bilder/encoder/layerextrahiert.jpg, id=118, 720.6925pt x 379.4175pt>
+<bilder/encoder/layerextrahiert.jpg, id=116, 720.6925pt x 379.4175pt>
 File: bilder/encoder/layerextrahiert.jpg Graphic file (type jpg)
 
 <use bilder/encoder/layerextrahiert.jpg>
@@ -997,7 +997,7 @@ Package pdftex.def Info: bilder/encoder/layerextrahiert.jpg used on input line
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [19 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/encoder/dekodiere
-n.jpg>] [20] <bilder/mainConcept.jpg, id=125, 1057.9525pt x 625.33624pt>
+n.jpg>] [20] <bilder/mainConcept.jpg, id=123, 1057.9525pt x 625.33624pt>
 File: bilder/mainConcept.jpg Graphic file (type jpg)
 
 <use bilder/mainConcept.jpg>
@@ -1093,8 +1093,8 @@ LaTeX Warning: There were multiply-defined labels.
 Package logreq Info: Writing requests to 'Hausarbeit.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 11773 strings out of 494045
- 189454 string characters out of 3145966
+ 11772 strings out of 494045
+ 189455 string characters out of 3145966
  440802 words of memory out of 3000000
  14852 multiletter control sequences out of 15000+200000
  71743 words of font info for 51 fonts, out of 3000000 for 9000
@@ -1114,9 +1114,9 @@ blic/lm/lmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri1
 2.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:
 /Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Fi
 les (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Hausarbeit.pdf (31 pages, 2901807 bytes).
+Output written on Hausarbeit.pdf (31 pages, 2983218 bytes).
 PDF statistics:
- 197 PDF objects out of 1000 (max. 8388607)
+ 195 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  76 words of extra memory for PDF output out of 10000 (max. 10000000)
 
