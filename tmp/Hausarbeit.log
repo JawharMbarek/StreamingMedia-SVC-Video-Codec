@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.3.17)  7 JAN 2013 15:31
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.3.17)  9 JAN 2013 03:55
 entering extended mode
 **Hausarbeit.tex
 ("D:\Hochschule\WS 12 13\Streaming Media\Hausarbeit\Hausarbeit.tex"
@@ -603,7 +603,13 @@ Package biblatex Warning: 'babel' detected but 'csquotes' missing.
 LaTeX Warning: Label `fig:h264enkoder' multiply defined.
 
 
-LaTeX Warning: Label `fig:referenzencoder' multiply defined.
+LaTeX Warning: Label `Encoder' multiply defined.
+
+
+LaTeX Warning: Label `Encoder' multiply defined.
+
+
+LaTeX Warning: Label `Encoder' multiply defined.
 
 )
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
@@ -743,7 +749,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 ! Undefined control sequence.
 <argument> \@Alpha 
                    \c@page 
-l.53 ...A}Abbildungsverzeichnis}{\@Alpha \c@page }
+l.55 ...A}Abbildungsverzeichnis}{\@Alpha \c@page }
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -754,7 +760,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.53 ...A}Abbildungsverzeichnis}{\@Alpha \c@page }
+l.55 ...A}Abbildungsverzeichnis}{\@Alpha \c@page }
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -763,7 +769,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Undefined control sequence.
 <argument> \@Alpha 
                    \c@page 
-l.55 ...numberline {B}Literatur}{\@Alpha \c@page }
+l.57 ...numberline {B}Literatur}{\@Alpha \c@page }
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -774,7 +780,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.55 ...numberline {B}Literatur}{\@Alpha \c@page }
+l.57 ...numberline {B}Literatur}{\@Alpha \c@page }
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -880,7 +886,7 @@ Kapitel 4.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.417 			\textbf{Modulname}&jsvm oder jsvm_
+l.419 			\textbf{Modulname}&jsvm oder jsvm_
                                            red \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -888,13 +894,13 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.418 	\end
+l.420 	\end
            {tabular}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (37.11937pt too wide) in paragraph at lines 424--431
+Overfull \hbox (37.11937pt too wide) in paragraph at lines 426--433
 \T1/lmr/m/n/12 mit al-len be-nö-ti-gen Klas-sen und Bi-blio-the-ken im Un-ter-o
 rd-ner \T1/lmr/m/it/12 jsv-m/h264Extension/build/windows\T1/lmr/m/n/12 .
  []
@@ -902,20 +908,28 @@ rd-ner \T1/lmr/m/it/12 jsv-m/h264Extension/build/windows\T1/lmr/m/n/12 .
 [14
 
 ]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 433.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 438.
 
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<bilder/encoder/downConvert.PNG, id=96, 543.53062pt x 283.0575pt>
-File: bilder/encoder/downConvert.PNG Graphic file (type png)
+<bilder/encoder/inputvideo.jpg, id=96, 2341.74875pt x 981.6675pt>
+File: bilder/encoder/inputvideo.jpg Graphic file (type jpg)
 
-<use bilder/encoder/downConvert.PNG>
-Package pdftex.def Info: bilder/encoder/downConvert.PNG used on input line 450.
+<use bilder/encoder/inputvideo.jpg>
+Package pdftex.def Info: bilder/encoder/inputvideo.jpg used on input line 444.
+(pdftex.def)             Requested size: 460.36539pt x 192.97472pt.
+ [15 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/encoder/inputvid
+eo.jpg>]
+<bilder/encoder/downconvert.jpg, id=101, 713.66624pt x 369.38pt>
+File: bilder/encoder/downconvert.jpg Graphic file (type jpg)
 
-(pdftex.def)             Requested size: 368.2937pt x 191.80708pt.
- [15 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/encoder/downConv
-ert.PNG>] [16]
+<use bilder/encoder/downconvert.jpg>
+Package pdftex.def Info: bilder/encoder/downconvert.jpg used on input line 467.
+
+(pdftex.def)             Requested size: 414.32603pt x 214.44908pt.
+ [16 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/encoder/downconv
+ert.jpg>]
 
 ! Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
@@ -924,22 +938,77 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.496 $\textbf{H264AVCEncoderLibTestStatic}$ –pf 
-                                                 Konfigurationsdatei.cfg
+l.515 $\textbf{H264AVCEncoderLibTestStaticd}$ –pf 
+                                                  Konfigurationsdatei.cfg
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
-<bilder/encoder/encoderDone.PNG, id=108, 521.69907pt x 263.48438pt>
+[17] <bilder/encoder/encoderDone.PNG, id=110, 521.69907pt x 263.48438pt>
 File: bilder/encoder/encoderDone.PNG Graphic file (type png)
 
 <use bilder/encoder/encoderDone.PNG>
-Package pdftex.def Info: bilder/encoder/encoderDone.PNG used on input line 505.
+Package pdftex.def Info: bilder/encoder/encoderDone.PNG used on input line 528.
 
 (pdftex.def)             Requested size: 414.32603pt x 209.25598pt.
- [17 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/encoder/encoderD
-one.PNG>] [18]
+
+Overfull \hbox (97.68518pt too wide) in paragraph at lines 534--538
+\T1/lmr/m/n/12 pri-mier-tes YUV-Video an-ge-legt. Die De-ko-die-rung er-folgt m
+it dem Pro-gramm H264AVCDecoderLibTestStaticd
+ []
+
+<bilder/encoder/dekodieren.jpg, id=112, 712.6625pt x 380.42125pt>
+File: bilder/encoder/dekodieren.jpg Graphic file (type jpg)
+
+<use bilder/encoder/dekodieren.jpg>
+Package pdftex.def Info: bilder/encoder/dekodieren.jpg used on input line 545.
+(pdftex.def)             Requested size: 414.32603pt x 221.16689pt.
+ [18 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/encoder/encoderD
+one.PNG>]
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.565 ...ticd}$ InputDatei.svc OutputDatei.sv –sl 
+                                                  5
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+<bilder/encoder/bitstreamdebug.jpg, id=117, 722.7pt x 394.47375pt>
+File: bilder/encoder/bitstreamdebug.jpg Graphic file (type jpg)
+
+<use bilder/encoder/bitstreamdebug.jpg>
+Package pdftex.def Info: bilder/encoder/bitstreamdebug.jpg used on input line 5
+72.
+(pdftex.def)             Requested size: 414.32603pt x 226.15251pt.
+
+<bilder/encoder/layerextrahiert.jpg, id=118, 720.6925pt x 379.4175pt>
+File: bilder/encoder/layerextrahiert.jpg Graphic file (type jpg)
+
+<use bilder/encoder/layerextrahiert.jpg>
+Package pdftex.def Info: bilder/encoder/layerextrahiert.jpg used on input line 
+575.
+(pdftex.def)             Requested size: 414.32603pt x 218.12283pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[19 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/encoder/dekodiere
+n.jpg>] [20] <bilder/mainConcept.jpg, id=125, 1057.9525pt x 625.33624pt>
+File: bilder/mainConcept.jpg Graphic file (type jpg)
+
+<use bilder/mainConcept.jpg>
+Package pdftex.def Info: bilder/mainConcept.jpg used on input line 618.
+(pdftex.def)             Requested size: 460.36539pt x 272.11449pt.
+ [21] [22 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/encoder/bit
+streamdebug.jpg> <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/enco
+der/layerextrahiert.jpg>] [23 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbei
+t/bilder/mainConcept.jpg>]
 Kapitel 5.
-[19
+[24
 
 ]
 Anhang A.
@@ -949,7 +1018,7 @@ Anhang A.
 ! Missing number, treated as zero.
 <to be read again> 
                    \relax 
-l.562 
+l.661 
       
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -962,7 +1031,7 @@ Anhang B.
 ! Missing number, treated as zero.
 <to be read again> 
                    \relax 
-l.562 
+l.661 
       
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -979,7 +1048,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.562 
+l.661 
       
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -987,7 +1056,7 @@ or \DeclareInputMath before using this key.
 ! Missing number, treated as zero.
 <to be read again> 
                    \relax 
-l.562 
+l.661 
       
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -1002,7 +1071,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.562 
+l.661 
       
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -1010,7 +1079,7 @@ or \DeclareInputMath before using this key.
 ! Missing number, treated as zero.
 <to be read again> 
                    \relax 
-l.563 \end{document}
+l.662 \end{document}
                     
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -1024,10 +1093,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package logreq Info: Writing requests to 'Hausarbeit.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 11742 strings out of 494045
- 188585 string characters out of 3145966
- 443802 words of memory out of 3000000
- 14826 multiletter control sequences out of 15000+200000
+ 11773 strings out of 494045
+ 189454 string characters out of 3145966
+ 440802 words of memory out of 3000000
+ 14852 multiletter control sequences out of 15000+200000
  71743 words of font info for 51 fonts, out of 3000000 for 9000
  719 hyphenation exceptions out of 8191
  45i,11n,60p,828b,3070s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1045,9 +1114,9 @@ blic/lm/lmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri1
 2.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:
 /Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Fi
 les (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Hausarbeit.pdf (26 pages, 1501581 bytes).
+Output written on Hausarbeit.pdf (31 pages, 2901807 bytes).
 PDF statistics:
- 177 PDF objects out of 1000 (max. 8388607)
+ 197 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
 

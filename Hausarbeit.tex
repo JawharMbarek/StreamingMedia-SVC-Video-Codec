@@ -393,8 +393,10 @@ Layer, sich dieser Layer bezieht und welche zuvor dekodiert werden müssen\parenc
 
 \chapter{H264-SVC Hands-on}
 
+%http://media.xiph.org/ldv/pub/test_sequences/720p/
+
 \section{SVC-Referenzcodec}
-Zur Evaluation der H264-SVC-Erweiterung wird der \textit{JSVM-COdec} (Joint Scalable Video Model) verwendet. 
+Zur Evaluation der H264-SVC-Erweiterung wird der \textit{JSVM-Codec} (Joint Scalable Video Model) verwendet. 
 Dieser ist der Referenzcodec des Joint Video Team (JVT), der ISO/IEC Moving Pictures Experts Group (MPEG) und 
 der ITU-T Video Coding Experts Group (VCEG). Neben dem Encoder und Decder sind im JMVC-Softwarepakets auch 
 Multiplexer und Testprogramme enthalten.
@@ -404,7 +406,7 @@ geschrieben und auf dem Webspace der Rheinisch-Westfälische Technische Hochschul
 in einem CVS-Repository gehostet. Um dieses Abzurufen ist eine geeigneten CVS-Software wie Tortoise 
 notwendig 
 
-Die hier vewendete Version des Encoder ist die Version XXXX.
+Die hier vewendete Version des Encoder ist die Version 9.19.14. 
 
 \begin{table}[htb]
 \centering	
@@ -429,38 +431,57 @@ Projektmappe erstellen} der Quellcode kompiliert.
 Nach erfolgreichem Kompilieren sind alle ausführbaren Progamme im Unterordner \textit{jmvc/bin} zu 
 finden.
 
-Die im Test verwendeten Beispielvideodatein können als YUV-Dateien unter folgender URL downgeloadet werden:
-\url{ftp://ftp.tnt.uni-hannover.de/pub/svc/testsequences/}
+\subsection{Videodateien}
+Der JSVM-Codec unterstützt als Eingabeformat nur unkomprimiertes YUV-Video. Zusätzlich müssen diese 
+für die jeweiligen Layer vorab in der gewünschten Auflösung der Layer kodiert werden. 
+Die im Test verwendeten Beispielvideodatein befinden sich auf dem Webspace der TU-München und können
+unter folgender URL heruntergeladen werden \url{http://nsl.cs.sfu.ca/video/library/tu-muenchen.de/}.
+Weitere Testvideo können unter folgender URL heruntergeladen 
+werden\url{ftp://ftp.tnt.uni-hannover.de/pub/svc/testsequences/}.
 
-\subsection{Vorbereitung}
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=\textwidth]{bilder/encoder/inputvideo.jpg}
+	%\caption[H264/AVC-Enkoder \newline \textit{Quelle: H.264 and MPEG-4 Video Compression, 2008}]{H264/AVC-Enkoder}
+	\caption[Das Quellvideo "`Park"' in unterschiedichen Auflösung]{Das Quellvideo "`Park"' in 180p (a), 360p (b) 
+	und 720p (c) Auflösung}	
+	\label{fig:inputvideo}
+\end{figure}
+
 Der Referenzeencoder benötig für die Erstellung eines beliebigen skalierbaren Videostroms mehrere Versionen eines 
 Quellvideos, das sich in Bezug auf Bildgröße, Framerate oder Bildqualität unterscheidet. Da diese unterschiedlichen
 Versionen meist nicht vorliegen, besitzt der Referenzencoder bereits ein Unterprogramm zur Erstellung dieser
-Videodateien. Das Programm heißt "`DownConvertStatic"' und wird mit folgender Syntax aufgerufen:
+Videodateien. Das Programm heißt "`DownConvertStatic"' und wird mit folgender Syntax über die 
+Komoandozeile aufgerufen:
 
 \begin{lstlisting}[label=DownConvertStatic,caption=Aufruf DownConvertStatic ,captionpos=b,breaklines=true,mathescape=true]
-$\textbf{DownConvertStatic}$ 352 2 88 bus_cif.yuv 176 144 bus_qcif.yuv
+$\textbf{DownConvertStaticd}$ HAuflösung VAuflösung Input.yuv HZielAuflösung 
+VeZielAuflösung Output.yuv 
 \end{lstlisting}
 
 Anschließend befinden neben der urpsünglichen YUV-Datei weitere Videodatein mit unterschiedlicher spatialer 
-Qualität im  Verzeichniss.
+Qualität im aufrufenden Verzeichniss.
 
 \begin{figure}[htb]
 	\centering
-	\includegraphics[width=0.8\textwidth]{bilder/encoder/downConvert.PNG}
-	\caption[Referenzencoder]{Referenzencoder}
+	\includegraphics[width=0.9\textwidth]{bilder/encoder/downconvert.jpg}
+	\caption[Referenzencoder]{Erzeugung von 360p und 180p YUV-Videodateien}
 	\label{fig:referenzencoder}
 \end{figure}
 
 \subsection{Enkodieren}
-Zur Erzeugung eines skalierbaren Videostroms werden mehrere Konfigurationsdateien benötigt. Einerseits wird
-eine allgemeine Konfigurationsdatei benötigt, in welcher die Einegnschaften der Quelldatei definiert werden.
-Dazu zählen u.a. der Dateiname, die Auflösung, die zu enkodierenden Frames und die Größe der Group of Pictures.
-Zusätzlich werden die layerspezifischen Konfigurationsdateien in dieser Konfigurationsdatei verlinkt.   
+Der JSVM-Codecs unterstützt zwei Betriebsarten. Einerseits die Funktionsweise als Singlelayer Encoder, bei
+welchem er sich wie ein regulärer H264/AVC-Encoder verhält und nur  H264/AVC-Videodatein erstellt. 
+Andererseist unterstüzt er auch die Erzeugung von skalierbaren Videosträmen in H264-SVC.
+
+Zur Erzeugung eines skalierbaren Videostroms in H264-SVC werden mehrere 
+Konfigurationsdateien benötigt. Einerseits wird eine allgemeine Konfigurationsdatei benötigt, in welcher 
+die Videoinformationen der Quelldatei definiert werden.
+Dazu zählen u.a. der Dateiname, die Auflösung, die Anzahll der zu enkodierenden Frames und die Größe der 
+Group of Pictures. Zusätzlich werden die layerspezifischen Konfigurationsdateien in dieser Konfigurationsdatei 
+verlinkt.   
 
 \begin{lstlisting}[label=ConfigEncoder,caption=Konfigurationsdatei des Encoders ,captionpos=b,breaklines=true,mathescape=true]
-
-# JSVM Main Configuration File
 
 OutputFile          test.264   # Bitstream file
 FrameRate           30.0       # Maximum frame rate [Hz]
@@ -473,13 +494,11 @@ NumLayers           1          # Number of layers
 LayerCfg            layer0.cfg # Layer configuration file
 \end{lstlisting}
 
-Weiterhin wird für jeden Layer eine zustzliche Konfigurationsdatei benötigt. In dieser spezifischen Datei werden 
-u.a. der Dateiname der herunterskalierten Quelldatei, die Auflösug, Bitrate und die Framerate für diesen Layer 
-definiert.
+Weiterhin wird für jeden Layer eine zusätzliche Konfigurationsdatei benötigt. In dieser spezifischen Datei werden 
+unter anderem der Dateiname der herunterskalierten Quelldatei, die Auflösug, Bitrate und die Framerate für diesen 
+Layer definiert.
 
 \begin{lstlisting}[label=ConfigLayer,caption=Konfigurationsdatei für einen Layer ,captionpos=b,breaklines=true,mathescape=true]
-
-# JSVM Layer Configuration File
 
 InputFile           BUS_CIF30.yuv  # Input  file
 SourceWidth         352            # Input  frame width
@@ -490,43 +509,123 @@ InterLayerPred      2              # Inter-layer Pred.
 
 \end{lstlisting}
 
-Der Encoder \textbf{H264AVCEncoderLibTestStatic} wird über folgenden Befehl aufgerufen:
+Der Encoder H264AVCEncoderLibTestStatic wird über folgenden Befehl über die Komandozeile aufgerufen:
 
 \begin{lstlisting}[label=Encoder,caption=Aufruf H264AVCEncoderLibTestStatic ,captionpos=b,breaklines=true,mathescape=true]
-$\textbf{H264AVCEncoderLibTestStatic}$ –pf Konfigurationsdatei.cfg
+$\textbf{H264AVCEncoderLibTestStaticd}$ –pf Konfigurationsdatei.cfg
 \end{lstlisting}
 
-Wenn die Enkodierung erfolgreich abgeschlossen ist, gibt er Encoder anschließend eine Meldung über die 
-enkodierten und eingebetteten Layer aus. Die entsprechende enkodierte Videodatei befindet sich Im Verzeichniss 
-des Enkoders unde trägt die Dateiendung .h264.
+Danach analysiert der Encoder die Konfigurationsdatei und enkodiert die einzelnen Layer. Der Baselayer wird 
+regulär in H264/AVC enkodiert, während die Enhancementlayer in H264-SVC enkodiert werden. 
+Wenn die Enkodierung erfolgreich abgeschlossen ist, gibt er Encoder anschließend eine Übersicht über die 
+enkodierten und eingebetteten Layer aus. In der Übersicht wird sowohl die spatialen Layer (Auflösung), die 
+Framerate (temporale Auflösung) angezeigt mit Übersicht der einzelnen Bitraten und PSNR-Werten. 
+Die entsprechende enkodierte Zieldatei befindet sich im Verzeichniss des Enkoders unde trägt die 
+Dateiendung .h264.
 
 \begin{figure}[htb]
 	\centering
 	\includegraphics[width=0.9\textwidth]{bilder/encoder/encoderDone.PNG}
-	\caption[Referenzencoder]{Referenzencoder}
-	\label{fig:referenzencoder}
+	\caption[Spatiale und Temporale Enkodierung]{Spatiale und Temporale Enkodierung}
+	\label{fig:encoderDone}
 \end{figure}
 
 \subsection{Dekodieren}  
+Der Referenzcodec unterstützt nur die Dekodierung des H264-SVC Videostroms zu YUV. Dabei wird aus allen 
+eingebetteten Layern das Ausgangsvideo rekonstruiert und als unkomprimiertes YUV-Video angelegt. 
+Die Dekodierung erfolgt mit dem Programm H264AVCDecoderLibTestStaticd mit folgendem Aufruf auf der 
+Kommandozeile. 
 
-\subsection{Bitstreams extrahieren}
+\begin{lstlisting}[label=Encoder,caption=Aufruf H264AVCDecoderLibTestStaticd ,captionpos=b,breaklines=true,mathescape=true]
+$\textbf{H264AVCDecoderLibTestStaticd}$ InputDatei.h264 OutputDatei.yuv 
+\end{lstlisting}
 
-%\paragraph{Enkoder}
-%COnfig File
-%SIngle LAyer
-%Multi Layer
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=0.9\textwidth]{bilder/encoder/dekodieren.jpg}
+	\caption[Referenzencoder]{Dekodierung und Rekonstruktion des Videostroms}
+	\label{fig:dekodieren}
+\end{figure}
+
+\subsection{Layerstruktur anzeigen und extrahieren}
+Der JSVM-Codec bietet mit Hilfe des Pgramms BitStreamExtractorStaticd die Möglichkeit Layer zu 
+extrahieren und daraus eine neue H264-SVC-Datei zu erstellen, die außschließlich die extrahierten
+Layern beeinhaltet. Zusätzlich bietet dieses Tool die Möglichkeit die Layerstruktur zu Debugzwecken anzuzeigen.
+Der Aufruf erfolgt auf der Kommandozeile folgendermaßen:
+
+\begin{lstlisting}[label=Encoder,caption=Aufruf BitStreamExtractorStaticd ,captionpos=b,breaklines=true,mathescape=true]
+$\textbf{BitStreamExtractorStaticd}$ InputDatei.svc
+\end{lstlisting}
+
+Anschließend erhält man eine Übersicht über alle enthaltenen Layer und deren Enkodierdetails.
+Zur Extraktion mehrer Layer, z. B. in diesem Fall Layer 0 bis 5 ruft man das gleiche Programm mit
+folgender Syntax von der Kommandozeile auf:
+
+\begin{lstlisting}[label=Encoder,caption=Aufruf BitStreamExtractorStaticd ,captionpos=b,breaklines=true,mathescape=true]
+$\textbf{BitStreamExtractorStaticd}$ InputDatei.svc OutputDatei.sv –sl 5
+\end{lstlisting}
+
+Als Resultät erhält man eine neue valide H264-SVC-kodierte Videodatei, die nur die Layer 0 bis 5 enthält.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.9\textwidth]{bilder/encoder/bitstreamdebug.jpg}
+	\caption[Referenzencoder]{Anzeige der Layerstruktur mit Hilfe von BitStreamExtractorStaticd}
+	\label{fig:bitstreamdebu}
+	\includegraphics[width=0.9\textwidth]{bilder/encoder/layerextrahiert.jpg}
+	\caption[Referenzencoder]{Anzeige der neuen Layerstruktur mit Hilfe von BitStreamExtractorStaticd}
+	\label{fig:layerextrahiert}
+\end{figure}
 
 \subsection{Evaluation}
-Inputfile muss unkomprimiertes YUV-Video sein --> Großes Files, Umkodieren notwendig
-Nicht Geschwindigkeitsoptimiert/langsam/nur Singlecore (10s pro Frames)
+Der JSVM-Referenzcode ist ein sehr mächtiges Tool und derzeit das einzige frei verfügbare Programm, um
+H264-SVC Videodateien zu erzeugen. Die Installation ist durch ein Vorkonfiguriertes Visualstudioprojekt 
+sehr einfach und funktioniert problemlos. 
 
+Die Arbeit mit dem Codec ist über die Kommandozeile und Eingabeparameter nicht sehr konfortable, 
+vereinfacht aber dafür die Einbindung in andere Programmen. Die mitgelieferte Dokumentation und
+Beispielprojekte machen es relativ zügig möglich selber mit dem Codec zu experimentieren. Allerdings
+gibt der Codec selbst nur wenig Hinweis, warum manche Settings nicht funktionieren   
+
+Das große Problem des JSVM-Codecs sind die Geschwindigkeit der Enkodierung und die möglichen 
+Ausgangsformate. Diese beiden Aspekte machen jegliche Verwendung in Realanwendungen unmöglich.
+Der Codec läuft nur auf einem Prozessorkern und nutzt dadurch die Möglichkeiten modernern PCs
+nicht. Dadurch ist die Enkodierung sehr langsam. 
+Bei regulärem CIF und QCIF Videos bentrug die Geschwidgkeit ca. 5 bis 6 Sekunden pro Frame. Bei 
+Testreihen mit HD-Material dauerte die Enkodierung von 100 Frames mehrere Stunden. 
+Zusätzlich unterstützt der Codec derzeit als Eingabeformat nur YUV-Video wodurch eine sinnvolle 
+Speicherung des Eingangsmaterials bei HD-Auflösung nicht möglich ist.
+
+Der JSVM-Referenzcode ist daher er als Proof of Concept zu verstehen, um interessierte Anwender mit 
+H264-SVC bekannt zu machen und diesen eine technische Basis zu geben. 
+ 
 \section{Kommerzielle Anbieter/Verwendung}
 
 \subsection{Google Talk}
 
-\subsection{Mainconcept SVC}
+\subsection{MainConcept SVC}
+MainConcept bietet einen H264-SVC-Decoder innerhalb ihres kostenpflichtigen MainConcept SDKs an. In diesem 
+sind FFDShow-Filter und Dekoder für verschiedene Inputformate enthalten. Zum Testen dieser Filter 
+bietet mainConcept eine kostenlose Showcaseapplikation als Download an. Diese kann unter folgender URL 
+bezogen werden \url{http://www.mainconcept.com/en/products/sdks/others/showcase.html}.
+Innerhalb der Showcaseapplikation wird in jedes Video ein Wasserzeichen eingeblendet.
 
-%\section{Vorteile und Nachteile}
+Der SVC-Decoder bietet Möglichkeit sowohl alle Layer gleichzeitig anzuzeigen als auch selektiv nur
+einen bestimmten Layer anzuzeigen, z.B. nur Layer 0 mit der Framerate 7.5 Frames.  
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=1\textwidth]{bilder/mainConcept.jpg}
+	\caption[Referenzencoder]{MainConcept SVC-Dekoder}
+	\label{fig:mainConcept}
+\end{figure}
+
+
+
+
+\subsection{Open SVC Decoder}
+
+
 \chapter{Konklusion}
 Die Verwendung von H264-SVC zur Distribution von Videoformaten bringt entscheidende Vorteile gegenüber 
 herkömmlichen Verfahren, wie das Simulcastverfahren, also der Übertragung mehrer unabhängiger Videoströme 
