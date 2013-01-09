@@ -26,17 +26,21 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces Das Quellvideo "`Park"' in unterschiedichen Aufl\"osung}}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.2}{\ignorespaces Referenzencoder}}{16}
+\contentsline {figure}{\numberline {\relax 4.2}{\ignorespaces Erzeugung von 360p und 180p YUV-Videodateien}}{16}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {\relax 4.3}{\ignorespaces Spatiale und Temporale Enkodierung}}{18}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.4}{\ignorespaces Referenzencoder}}{19}
+\contentsline {figure}{\numberline {\relax 4.4}{\ignorespaces Dekodierung und Rekonstruktion des Videostroms}}{19}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.5}{\ignorespaces Referenzencoder}}{22}
+\contentsline {figure}{\numberline {\relax 4.5}{\ignorespaces Anzeige der Layerstruktur mit Hilfe von BitStreamExtractorStaticd}}{20}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.6}{\ignorespaces Referenzencoder}}{22}
+\contentsline {figure}{\numberline {\relax 4.6}{\ignorespaces Anzeige der ge\"anderten Layerstruktur mit Hilfe von BitStreamExtractorStaticd}}{21}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.7}{\ignorespaces Referenzencoder}}{23}
+\contentsline {figure}{\numberline {\relax 4.7}{\ignorespaces Aufbau des Videoplayers}}{23}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 4.8}{\ignorespaces Aufbau des Frameworks}}{23}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 4.9}{\ignorespaces MainConcept SVC-Dekoder}}{25}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

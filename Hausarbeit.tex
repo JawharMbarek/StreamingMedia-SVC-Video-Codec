@@ -393,8 +393,6 @@ Layer, sich dieser Layer bezieht und welche zuvor dekodiert werden müssen\parenc
 
 \chapter{H264-SVC Hands-on}
 
-%http://media.xiph.org/ldv/pub/test_sequences/720p/
-
 \section{SVC-Referenzcodec}
 Zur Evaluation der H264-SVC-Erweiterung wird der \textit{JSVM-Codec} (Joint Scalable Video Model) verwendet. 
 Dieser ist der Referenzcodec des Joint Video Team (JVT), der ISO/IEC Moving Pictures Experts Group (MPEG) und 
@@ -465,7 +463,7 @@ Qualität im aufrufenden Verzeichniss.
 \begin{figure}[htb]
 	\centering
 	\includegraphics[width=0.9\textwidth]{bilder/encoder/downconvert.jpg}
-	\caption[Referenzencoder]{Erzeugung von 360p und 180p YUV-Videodateien}
+	\caption[Erzeugung von 360p und 180p YUV-Videodateien]{Erzeugung von 360p und 180p YUV-Videodateien}
 	\label{fig:referenzencoder}
 \end{figure}
 
@@ -533,7 +531,7 @@ Dateiendung .h264.
 \subsection{Dekodieren}  
 Der Referenzcodec unterstützt nur die Dekodierung des H264-SVC Videostroms zu YUV. Dabei wird aus allen 
 eingebetteten Layern das Ausgangsvideo rekonstruiert und als unkomprimiertes YUV-Video angelegt. 
-Die Dekodierung erfolgt mit dem Programm H264AVCDecoderLibTestStaticd mit folgendem Aufruf auf der 
+Die Dekodierung erfolgt mit dem Programm \\ H264AVCDecoderLibTestStaticd mit folgendem Aufruf auf der 
 Kommandozeile. 
 
 \begin{lstlisting}[label=Encoder,caption=Aufruf H264AVCDecoderLibTestStaticd ,captionpos=b,breaklines=true,mathescape=true]
@@ -543,7 +541,7 @@ $\textbf{H264AVCDecoderLibTestStaticd}$ InputDatei.h264 OutputDatei.yuv
 \begin{figure}[htb]
 	\centering
 	\includegraphics[width=0.9\textwidth]{bilder/encoder/dekodieren.jpg}
-	\caption[Referenzencoder]{Dekodierung und Rekonstruktion des Videostroms}
+	\caption[Dekodierung und Rekonstruktion des Videostroms]{Dekodierung und Rekonstruktion des Videostroms}
 	\label{fig:dekodieren}
 \end{figure}
 
@@ -557,6 +555,13 @@ Der Aufruf erfolgt auf der Kommandozeile folgendermaßen:
 $\textbf{BitStreamExtractorStaticd}$ InputDatei.svc
 \end{lstlisting}
 
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=0.9\textwidth]{bilder/encoder/bitstreamdebug.jpg}
+	\caption[Anzeige der Layerstruktur mit Hilfe von BitStreamExtractorStaticd]{Anzeige der Layerstruktur mit Hilfe von BitStreamExtractorStaticd}
+	\label{fig:bitstreamdebug}	
+\end{figure}
+
 Anschließend erhält man eine Übersicht über alle enthaltenen Layer und deren Enkodierdetails.
 Zur Extraktion mehrer Layer, z. B. in diesem Fall Layer 0 bis 5 ruft man das gleiche Programm mit
 folgender Syntax von der Kommandozeile auf:
@@ -567,15 +572,22 @@ $\textbf{BitStreamExtractorStaticd}$ InputDatei.svc OutputDatei.sv –sl 5
 
 Als Resultät erhält man eine neue valide H264-SVC-kodierte Videodatei, die nur die Layer 0 bis 5 enthält.
 
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=0.9\textwidth]{bilder/encoder/bitstreamdebug.jpg}
-	\caption[Referenzencoder]{Anzeige der Layerstruktur mit Hilfe von BitStreamExtractorStaticd}
-	\label{fig:bitstreamdebu}
+\begin{figure}[htb]
+	\centering	
 	\includegraphics[width=0.9\textwidth]{bilder/encoder/layerextrahiert.jpg}
-	\caption[Referenzencoder]{Anzeige der neuen Layerstruktur mit Hilfe von BitStreamExtractorStaticd}
+	\caption[Anzeige der geänderten Layerstruktur mit Hilfe von BitStreamExtractorStaticd]{Anzeige der geänderten Layerstruktur mit Hilfe von BitStreamExtractorStaticd}
 	\label{fig:layerextrahiert}
 \end{figure}
+
+% \begin{figure}[h]
+% 	\centering
+% 	\includegraphics[width=0.9\textwidth]{bilder/encoder/bitstreamdebug.jpg}
+% 	\caption[Referenzencoder]{Anzeige der Layerstruktur mit Hilfe von BitStreamExtractorStaticd}
+% 	\label{fig:bitstreamdebu}
+% 	\includegraphics[width=0.9\textwidth]{bilder/encoder/layerextrahiert.jpg}
+% 	\caption[Referenzencoder]{Anzeige der neuen Layerstruktur mit Hilfe von BitStreamExtractorStaticd}
+% 	\label{fig:layerextrahiert}
+% \end{figure}
 
 \subsection{Evaluation}
 Der JSVM-Referenzcode ist ein sehr mächtiges Tool und derzeit das einzige frei verfügbare Programm, um
@@ -598,6 +610,93 @@ Speicherung des Eingangsmaterials bei HD-Auflösung nicht möglich ist.
 
 Der JSVM-Referenzcode ist daher er als Proof of Concept zu verstehen, um interessierte Anwender mit 
 H264-SVC bekannt zu machen und diesen eine technische Basis zu geben. 
+
+\section{Scalable Streaming Projekt}
+
+\subsection{Einleitung}
+Im Folgenden wird ein Projekt von Siyuan Xiang vorgestellt, das das Konzept und die Implementierung 
+eines Frameworks für adaptives skalierbares Video Streaming über HTTP beschreibt. Das Projekt gewann 
+im Mai 2011 den dritten Platz beim BCNET Digital Media Challenge Studenten Wettbewerb in 
+Vancouver (\url{https://sites.google.com/site/svchttpstreaming/})
+
+Zur Zeit werden auf kommerziellen Webseiten meist zwei Techniken eingesetzt, um Video über HTTP zu 
+streamen. Zum einen gibt es Progressive Download, wie es zum Beispiel bei den Videoplattformen YouTube 
+und Vimeo verwendet wird, des Weiteren gibt es Adaptive Streaming, was in verschiedenen Implementierungen 
+vorliegt, wie zum Beispiel Microsoft Smooth Streaming, Apple HTTP Live Streaming oder Adobe HTTP Dynamic 
+Streaming.
+
+Durch adaptives Streaming kann die Video Bitrate dynamisch angepasst werden, um verschiedene Bandbreiten 
+mit einem passenden Videostream zu bedienen und  verhindert dabei, dass zu viel Daten vorgeladen werden 
+müssen, wenn mehr Bandbreite zur Verfügung steht. Dabei kann es jedoch vorkommen, dass Daten umsonst 
+geladen werden.
+Video Server, die adaptives Streaming anbieten, müssen verschiedene Kopien des selben Videos für 
+verschiedene Bitraten und Bandbreiten bereitstellen, um verschiedene Clients optimal bedienen zu können. 
+Dadurch ist viel Speicherplatz auf den Servern nötig und Cachetreffer werden verringert. Durch Scalable 
+Video Coding können diese Nachteile beseitigt werden. 
+Laut (\url{http://web.cs.wpi.edu/~claypool/mmsys-2011/Day3-5_idash.pdf}) können bis 56\% an Speicherplatz 
+auf den Servern durch SVC eingespart werden.
+
+\subsection{Projektkurzübersicht}
+
+\begin{enumerate}
+  \item Ein Extractor wurde konzipiert und implementiert, um H.264/SVC Bitstream Abstraction Layer (NAL) 
+  		Einheiten zu analysieren und um den enkodierten Bitstream in Layer-Segmente aufzuteilen.
+  \item Ein Rate-Adaption-Algorithmus wurde konzipiert und implementiert, um die Video Bitrate an die 
+  		verschiedenen Bandbreiten und Client-Anforderungen anzupassen.#
+  \item Ein einfacher Video-Player wurde mittels OpenSVC-Decoder und SDL (Simple DirectMedia Layer) 
+  		implementiert, um die kommerzielle Nutzung darzustellen.
+\end{enumerate}
+
+\subsection{Framework}
+
+\begin{figure}[htb]
+	\centering	
+	\includegraphics[width=0.6\textwidth]{bilder/projekt/player.png}
+	\caption[Aufbau des Videoplayers]{Aufbau des Videoplayers}
+	\label{fig:videoplayer}
+\end{figure}
+
+Der Video-Player besteht aus den drei Komponenten Rate-Adaption, Decoder und Display.
+Der Rate-Adaption-Algorithmus entscheidet, welche Video-Version beziehungsweise welcher Layer angefragt 
+werden soll und sendet einen HTTP-Request an den Streaming-Server, welcher mit den angefragten Segmenten 
+antwortet. Die empfangenen Segmente werden im Segment-Buffer gespeichert. Im Decoder werden die Segmente 
+so schnell wie möglich dekodiert und daraufhin in den Picture-Buffer abgespeichert. Die Display-Komponente 
+stellt die Bilder aus dem Picture-Buffer in einer konstanten Bildwiederholungsrate dar.
+
+Der komplette Prozess des adaptiven skalierbaren Video-Streaming über HTTP wird in der Projektdokumentation 
+anhand eines spezifischen Beispiels dargestellt. Eine Übersicht der Komponenten:
+
+\begin{figure}[htb]
+	\centering	
+	\includegraphics[width=0.75\textwidth]{bilder/projekt/framework.png}
+	\caption[Aufbau des Frameworks]{Aufbau des Frameworks}
+	\label{fig:framework}
+\end{figure}
+
+Als Beispiel-Video dient Big Buck Bunny, ein Open-Movie-Projekt, in einer Ausgangsauflösung von 1080x720. 
+Im ersten Schritt werden aus dem Video durch Downsampling zwei neue Versionen des Videos erstellt, welche 
+auf die Auflösung 640x360 und 320x180 durch das Downsampling reduziert wurden. Dann wird jedes Video in 
+kleinere Segmente mit jeweils 17 Bildern unterteilt. Da die Bildwiederholungsrate 24 Bilder pro Sekunde ist, 
+hat jedes Segment eine Dauer von ca. 0,7 Sekunden, wenn die ersten 3400 Bilder genutzt werden.
+Weiterhin wird jedes Segment mit dem SVC-Encoder (JSVM) enkodiert. Bei diesem Beispiel werden drei Auflösungen 
+verwendet und jede Auflösung hat zwei Quality-Layer. Die folgende Tabelle fasst die Bitrate- und 
+Video-Quality-Layer zusammen. Eine Audiospur wurde hierbei nicht berücksichtigt.
+
+Im nächsten Schritt werden im Extractor die NAL-Units eines Layers mit dem gleichen Layer-Index aus den 
+Segment-Frames extrahiert und zusammen in einer Layer-Segment-Datei gespeichert. Außerdem wird die Struktur 
+der NAL-Units eines Segments analysiertund in einer Textdatei gespeichert.
+Ein einfacher HTTP-Server kann ähnlich wie beim Progessive Download als Streaming Server verwendet werden. 
+Für dieses Projekt wurde lighttpd als Web-Server benutzt. Dieser wird auch von YouTube eingesetzt. 
+Wichtig ist die server.max-keep-alive-requests Option von lighttpd, welche angibt, wie viele Anfragen vom 
+Server bearbeitet werden können, bevor der Server die Verbindung schließt, da der Client Piplining benutzt, 
+um die Layer-Segmente anzufragen.
+Wenn der Video-Player die Wiedergabe startet, erhält er zuerst Informationen über die Anzahl der Layer und 
+die durchschnittliche Video-Bitrate.
+Im letzten Schritt sucht der Player/Rate-Adaption-Algorithmus die passendsten Layer bei Berücksichtigung von 
+Bandbreite, Bildschirmgröße des Geräts und Rechenleistung. Zum Beispiel ein Smartphone mit einem kleinen 
+Bildschirm wird den “low”-Layer mit einer Auflösung von 320x180 anfragen. Im Gegenteil wird ein Laptop mit 
+großem Bildschirm und mehr Rechenleistung zum Dekodieren die Layer “low” bis “high” anfragen, um die 
+bestmögliche Qualität darzustellen.
  
 \section{Kommerzielle Anbieter/Verwendung}
 
@@ -606,17 +705,17 @@ H264-SVC bekannt zu machen und diesen eine technische Basis zu geben.
 \subsection{MainConcept SVC}
 MainConcept bietet einen H264-SVC-Decoder innerhalb ihres kostenpflichtigen MainConcept SDKs an. In diesem 
 sind FFDShow-Filter und Dekoder für verschiedene Inputformate enthalten. Zum Testen dieser Filter 
-bietet mainConcept eine kostenlose Showcaseapplikation als Download an. Diese kann unter folgender URL 
+bietet MainConcept eine kostenlose Showcaseapplikation als Download an. Diese kann unter folgender URL 
 bezogen werden \url{http://www.mainconcept.com/en/products/sdks/others/showcase.html}.
 Innerhalb der Showcaseapplikation wird in jedes Video ein Wasserzeichen eingeblendet.
 
 Der SVC-Decoder bietet Möglichkeit sowohl alle Layer gleichzeitig anzuzeigen als auch selektiv nur
-einen bestimmten Layer anzuzeigen, z.B. nur Layer 0 mit der Framerate 7.5 Frames.  
+einen bestimmten Layer anzuzeigen, z.B. nur Layer 0 mit der Framerate 7.5 Frames pro Sekunde.  
 
 \begin{figure}[htb]
 	\centering
 	\includegraphics[width=1\textwidth]{bilder/mainConcept.jpg}
-	\caption[Referenzencoder]{MainConcept SVC-Dekoder}
+	\caption[MainConcept SVC-Dekoder]{MainConcept SVC-Dekoder}
 	\label{fig:mainConcept}
 \end{figure}
 

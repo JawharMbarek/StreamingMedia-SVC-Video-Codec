@@ -42,17 +42,25 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.1.6}Evaluation}{20}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Kommerzielle Anbieter/Verwendung}{20}
+\contentsline {section}{\numberline {4.2}Scalable Streaming Projekt}{21}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Google Talk}{20}
+\contentsline {subsection}{\numberline {4.2.1}Einleitung}{21}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}MainConcept SVC}{20}
+\contentsline {subsection}{\numberline {4.2.2}Projektkurz\"ubersicht}{22}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.3}Open SVC Decoder}{21}
+\contentsline {subsection}{\numberline {4.2.3}Framework}{22}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.4}SVC Stream Player}{21}
+\contentsline {section}{\numberline {4.3}Kommerzielle Anbieter/Verwendung}{24}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Konklusion}{24}
+\contentsline {subsection}{\numberline {4.3.1}Google Talk}{24}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.2}MainConcept SVC}{24}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.3}Open SVC Decoder}{25}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.4}SVC Stream Player}{25}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Konklusion}{26}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {A}Abbildungsverzeichnis}{\@Alpha \c@page }
 \defcounter {refsection}{0}\relax 

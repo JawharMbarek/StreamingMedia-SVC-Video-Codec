@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.3.17)  9 JAN 2013 04:53
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.3.17)  9 JAN 2013 19:31
 entering extended mode
 **Hausarbeit.tex
 ("D:\Hochschule\WS 12 13\Streaming Media\Hausarbeit\Hausarbeit.tex"
@@ -749,7 +749,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 ! Undefined control sequence.
 <argument> \@Alpha 
                    \c@page 
-l.57 ...A}Abbildungsverzeichnis}{\@Alpha \c@page }
+l.65 ...A}Abbildungsverzeichnis}{\@Alpha \c@page }
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -760,7 +760,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.57 ...A}Abbildungsverzeichnis}{\@Alpha \c@page }
+l.65 ...A}Abbildungsverzeichnis}{\@Alpha \c@page }
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -769,7 +769,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Undefined control sequence.
 <argument> \@Alpha 
                    \c@page 
-l.59 ...numberline {B}Literatur}{\@Alpha \c@page }
+l.67 ...numberline {B}Literatur}{\@Alpha \c@page }
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -780,7 +780,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.59 ...numberline {B}Literatur}{\@Alpha \c@page }
+l.67 ...numberline {B}Literatur}{\@Alpha \c@page }
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -886,7 +886,7 @@ Kapitel 4.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.419 			\textbf{Modulname}&jsvm oder jsvm_
+l.417 			\textbf{Modulname}&jsvm oder jsvm_
                                            red \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -894,13 +894,13 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.420 	\end
+l.418 	\end
            {tabular}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (37.11937pt too wide) in paragraph at lines 426--433
+Overfull \hbox (37.11937pt too wide) in paragraph at lines 424--431
 \T1/lmr/m/n/12 mit al-len be-nö-ti-gen Klas-sen und Bi-blio-the-ken im Un-ter-o
 rd-ner \T1/lmr/m/it/12 jsv-m/h264Extension/build/windows\T1/lmr/m/n/12 .
  []
@@ -908,7 +908,7 @@ rd-ner \T1/lmr/m/it/12 jsv-m/h264Extension/build/windows\T1/lmr/m/n/12 .
 [14
 
 ]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 438.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 436.
 
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -917,7 +917,7 @@ File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 File: bilder/encoder/inputvideo.jpg Graphic file (type jpg)
 
 <use bilder/encoder/inputvideo.jpg>
-Package pdftex.def Info: bilder/encoder/inputvideo.jpg used on input line 444.
+Package pdftex.def Info: bilder/encoder/inputvideo.jpg used on input line 442.
 (pdftex.def)             Requested size: 460.36539pt x 192.97472pt.
  [15 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/encoder/inputvid
 eo.jpg>]
@@ -925,7 +925,7 @@ eo.jpg>]
 File: bilder/encoder/downconvert.jpg Graphic file (type jpg)
 
 <use bilder/encoder/downconvert.jpg>
-Package pdftex.def Info: bilder/encoder/downconvert.jpg used on input line 467.
+Package pdftex.def Info: bilder/encoder/downconvert.jpg used on input line 465.
 
 (pdftex.def)             Requested size: 414.32603pt x 214.44908pt.
  [16 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/encoder/downconv
@@ -938,7 +938,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.515 $\textbf{H264AVCEncoderLibTestStaticd}$ –pf 
+l.513 $\textbf{H264AVCEncoderLibTestStaticd}$ –pf 
                                                   Konfigurationsdatei.cfg
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -947,23 +947,26 @@ or \DeclareInputMath before using this key.
 File: bilder/encoder/encoderDone2.jpg Graphic file (type jpg)
 
 <use bilder/encoder/encoderDone2.jpg>
-Package pdftex.def Info: bilder/encoder/encoderDone2.jpg used on input line 528
+Package pdftex.def Info: bilder/encoder/encoderDone2.jpg used on input line 526
 .
 (pdftex.def)             Requested size: 414.32603pt x 226.46413pt.
-
-Overfull \hbox (97.68518pt too wide) in paragraph at lines 534--538
-\T1/lmr/m/n/12 pri-mier-tes YUV-Video an-ge-legt. Die De-ko-die-rung er-folgt m
-it dem Pro-gramm H264AVCDecoderLibTestStaticd
- []
 
 <bilder/encoder/dekodieren.jpg, id=111, 712.6625pt x 380.42125pt>
 File: bilder/encoder/dekodieren.jpg Graphic file (type jpg)
 
 <use bilder/encoder/dekodieren.jpg>
-Package pdftex.def Info: bilder/encoder/dekodieren.jpg used on input line 545.
+Package pdftex.def Info: bilder/encoder/dekodieren.jpg used on input line 543.
 (pdftex.def)             Requested size: 414.32603pt x 221.16689pt.
  [18 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/encoder/encoderD
 one2.jpg>]
+<bilder/encoder/bitstreamdebug.jpg, id=115, 722.7pt x 394.47375pt>
+File: bilder/encoder/bitstreamdebug.jpg Graphic file (type jpg)
+
+<use bilder/encoder/bitstreamdebug.jpg>
+Package pdftex.def Info: bilder/encoder/bitstreamdebug.jpg used on input line 5
+60.
+(pdftex.def)             Requested size: 414.32603pt x 226.15251pt.
+
 
 ! Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
@@ -972,43 +975,137 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.565 ...ticd}$ InputDatei.svc OutputDatei.sv –sl 
+l.570 ...ticd}$ InputDatei.svc OutputDatei.sv –sl 
                                                   5
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
-
-<bilder/encoder/bitstreamdebug.jpg, id=115, 722.7pt x 394.47375pt>
-File: bilder/encoder/bitstreamdebug.jpg Graphic file (type jpg)
-
-<use bilder/encoder/bitstreamdebug.jpg>
-Package pdftex.def Info: bilder/encoder/bitstreamdebug.jpg used on input line 5
-72.
-(pdftex.def)             Requested size: 414.32603pt x 226.15251pt.
 
 <bilder/encoder/layerextrahiert.jpg, id=116, 720.6925pt x 379.4175pt>
 File: bilder/encoder/layerextrahiert.jpg Graphic file (type jpg)
 
 <use bilder/encoder/layerextrahiert.jpg>
 Package pdftex.def Info: bilder/encoder/layerextrahiert.jpg used on input line 
-575.
+577.
 (pdftex.def)             Requested size: 414.32603pt x 218.12283pt.
+ [19 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/encoder/dekodier
+en.jpg>] [20 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/encoder/
+bitstreamdebug.jpg>] [21 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bil
+der/encoder/layerextrahiert.jpg>]
+! You can't use `macro parameter character #' in horizontal mode.
+l.645 ...ten und Client-Anforderungen anzupassen.#
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+<bilder/projekt/player.png, id=126, 399.4925pt x 202.7575pt>
+File: bilder/projekt/player.png Graphic file (type png)
+
+<use bilder/projekt/player.png>
+Package pdftex.def Info: bilder/projekt/player.png used on input line 654.
+(pdftex.def)             Requested size: 276.22203pt x 140.19983pt.
+ [22]
+<bilder/projekt/framework.png, id=132, 642.4pt x 300.12125pt>
+File: bilder/projekt/framework.png Graphic file (type png)
+
+<use bilder/projekt/framework.png>
+Package pdftex.def Info: bilder/projekt/framework.png used on input line 671.
+(pdftex.def)             Requested size: 345.27403pt x 161.31203pt.
+ [23 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/projekt/player.p
+ng> <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/projekt/framework
+.png>]
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.697 Bildschirm wird den “
+                           low”-Layer mit einer Auflösung von 320x180 anfrag...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
 
-[19 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/encoder/dekodiere
-n.jpg>] [20] <bilder/mainConcept.jpg, id=123, 1057.9525pt x 625.33624pt>
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.697 Bildschirm wird den “low”
+                               -Layer mit einer Auflösung von 320x180 anfrag...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.698 ...Rechenleistung zum Dekodieren die Layer “
+                                                  low” bis “high” anfragen, ...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.698 ...enleistung zum Dekodieren die Layer “low”
+                                                   bis “high” anfragen, um die
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.698 ...tung zum Dekodieren die Layer “low” bis “
+                                                  high” anfragen, um die
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.698 ...zum Dekodieren die Layer “low” bis “high”
+                                                   anfragen, um die
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+<bilder/mainConcept.jpg, id=138, 1057.9525pt x 625.33624pt>
 File: bilder/mainConcept.jpg Graphic file (type jpg)
 
 <use bilder/mainConcept.jpg>
-Package pdftex.def Info: bilder/mainConcept.jpg used on input line 618.
+Package pdftex.def Info: bilder/mainConcept.jpg used on input line 717.
 (pdftex.def)             Requested size: 460.36539pt x 272.11449pt.
- [21] [22 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/encoder/bit
-streamdebug.jpg> <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/enco
-der/layerextrahiert.jpg>] [23 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbei
-t/bilder/mainConcept.jpg>]
+ [24] [25 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/mainConcept
+.jpg>]
 Kapitel 5.
-[24
+[26
 
 ]
 Anhang A.
@@ -1018,7 +1115,7 @@ Anhang A.
 ! Missing number, treated as zero.
 <to be read again> 
                    \relax 
-l.661 
+l.760 
       
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -1031,7 +1128,7 @@ Anhang B.
 ! Missing number, treated as zero.
 <to be read again> 
                    \relax 
-l.661 
+l.760 
       
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -1048,7 +1145,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.661 
+l.760 
       
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -1056,7 +1153,7 @@ or \DeclareInputMath before using this key.
 ! Missing number, treated as zero.
 <to be read again> 
                    \relax 
-l.661 
+l.760 
       
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -1071,7 +1168,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.661 
+l.760 
       
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -1079,7 +1176,7 @@ or \DeclareInputMath before using this key.
 ! Missing number, treated as zero.
 <to be read again> 
                    \relax 
-l.662 \end{document}
+l.761 \end{document}
                     
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -1093,10 +1190,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package logreq Info: Writing requests to 'Hausarbeit.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 11772 strings out of 494045
- 189455 string characters out of 3145966
+ 11785 strings out of 494045
+ 189776 string characters out of 3145966
  440802 words of memory out of 3000000
- 14852 multiletter control sequences out of 15000+200000
+ 14862 multiletter control sequences out of 15000+200000
  71743 words of font info for 51 fonts, out of 3000000 for 9000
  719 hyphenation exceptions out of 8191
  45i,11n,60p,828b,3070s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1114,9 +1211,9 @@ blic/lm/lmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri1
 2.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:
 /Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Fi
 les (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Hausarbeit.pdf (31 pages, 2983218 bytes).
+Output written on Hausarbeit.pdf (33 pages, 3067792 bytes).
 PDF statistics:
- 195 PDF objects out of 1000 (max. 8388607)
+ 206 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 
