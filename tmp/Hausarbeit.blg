@@ -3,7 +3,6 @@ The style file: biblatex.bst
 A level-1 auxiliary file: deckblatt.aux
 Database file #1: Hausarbeit-blx.bib
 Database file #2: literatur/bib.bib
-Warning--I didn't find a database entry for "year"
 Biblatex version: 2.3
 Too many commas in name 1 of "Iraide Unanue, Iñigo Urteaga, Ronaldo Husemann, Javier Del Ser, Valter Roesler, Aitor Rodríguez,, Pedro Sánchez" for entry Unanue.2011
 while executing---line 2499 of file biblatex.bst

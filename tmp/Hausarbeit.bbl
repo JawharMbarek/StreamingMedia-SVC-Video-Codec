@@ -300,6 +300,25 @@
   \field{year}{2011}
 \endentry
 
+\entry{Sanchez.2011}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Sánchez}{S.}%
+     {Yago}{Y.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SY1}
+  \strng{fullhash}{SY1}
+  \field{sortinit}{S}
+  \field{title}{iDASH: improved Dynamic Adaptive Streaming over HTTP using
+  Scalable Video Coding}
+  \verb{url}
+  \verb http://web.cs.wpi.edu/~claypool/mmsys-2011/Day3-5_idash.pdf
+  \endverb
+  \field{year}{2011}
+\endentry
+
 \entry{Yago.2011}{article}{}
   \name{author}{1}{}{%
     {{}%
@@ -352,6 +371,24 @@
   \verb http://ip.hhi.de/imagecom_G1/assets/pdfs/PerformanceAnalysis_SVC_IEEE07
   \verb .pdf
   \endverb
+\endentry
+
+\entry{Xing.2011}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Xiang}{X.}%
+     {Siyuan}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{XS1}
+  \strng{fullhash}{XS1}
+  \field{sortinit}{X}
+  \field{title}{Scalable Streaming}
+  \verb{url}
+  \verb https://sites.google.com/site/svchttpstreaming/
+  \endverb
+  \field{year}{2011}
 \endentry
 
 \entry{Zaller.2012.2012}{article}{}

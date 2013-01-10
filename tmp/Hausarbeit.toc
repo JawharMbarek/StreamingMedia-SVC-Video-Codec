@@ -10,21 +10,19 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.1}Allgemein}{4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Abgrenzung zu Adaptive Streaming}{6}
+\contentsline {section}{\numberline {3.2}Videokodierung mit H264/AVC}{6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Videokodierung mit H264/AVC}{6}
+\contentsline {section}{\numberline {3.3}Videokodierung mit H264-SVC}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Videokodierung mit H264-SVC}{8}
+\contentsline {subsection}{\numberline {3.3.1}Baselayer und Enhacementlayer}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.1}Baselayer und Enhacementlayer}{8}
+\contentsline {subsection}{\numberline {3.3.2}Spatiale Skalierbarkeit}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.2}Spatiale Skalierbarkeit}{9}
+\contentsline {subsection}{\numberline {3.3.3}Temporale Skalierbarkeit}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.3}Temporale Skalierbarkeit}{10}
+\contentsline {subsection}{\numberline {3.3.4}Qualitative Skalierbarkeit}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.4}Qualitative Skalierbarkeit}{10}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}H264-SVC mit MPEG DASH}{12}
+\contentsline {section}{\numberline {3.4}H264-SVC mit MPEG DASH}{12}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}H264-SVC Hands-on}{14}
 \defcounter {refsection}{0}\relax 
@@ -50,17 +48,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.3}Framework}{22}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Kommerzielle Anbieter/Verwendung}{24}
+\contentsline {section}{\numberline {4.3}Weitere Implementierungen}{25}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}Google Talk}{24}
+\contentsline {subsection}{\numberline {4.3.1}Google Talk}{25}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.2}MainConcept SVC}{24}
+\contentsline {subsection}{\numberline {4.3.2}MainConcept SVC}{25}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.3}Open SVC Decoder}{25}
+\contentsline {subsection}{\numberline {4.3.3}OpenSVC Decoder}{26}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.4}SVC Stream Player}{25}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Konklusion}{26}
+\contentsline {chapter}{\numberline {5}Konklusion}{27}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {A}Abbildungsverzeichnis}{\@Alpha \c@page }
 \defcounter {refsection}{0}\relax 
