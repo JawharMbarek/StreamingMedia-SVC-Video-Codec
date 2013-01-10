@@ -159,8 +159,6 @@ Auflösung (Spatial) und Bildqualität (Quality) unterschieden (Siehe Abbildung
 In skalierbaren Videoströmen können diese drei Arten von Enhancementlayern auch beliebig kombiniert werden,
 z.\,B. Spatio–temporale Enhancementlayer \parencite[2]{SchwarzNeu.2007}.
 
-%http://www.isccast.com/podcasts.isc365.com/powerpoint/09ISCWest_DI08.pdf
-
 Zusätzlich können mit einer in H264-SVC enkodierten Videoquelldatei gleichzeitig unterschiedliche Geräte z.\,B. 
 Smartphones und FullHD-Geräte angesprochen werden. Die sonst übliche Transkodierung und das Vorhaltung 
 vorab enkodierter Teilvideodatein entfällt. Das erleichtert die Langzeitarchivierung und verringert gleichzeitig
@@ -170,6 +168,13 @@ Bei Verwendung dieser H264-SVC erhöht sich der Overhead nur um 10\% bis 20\% ver
 H264/AVC. Im Falle eines stark fehleranfälligen Übertragungsmediums kann der Overhead sogar geringer ausfallen,
 als bei Simulcastübertragung. Zusätzlich bleibt der zur Enkodierung und Dekodierung benötigte Rechenaufwand 
 nahezu gleich \parencite[4]{Shapiro.2009}.
+
+\section{Abgrenzung zu Adaptive Streaming}
+H264-SVC und Adaptive Streaming unterschieden sich in der Art der Speicherung der Videodaten. Bei 
+der Verwendung von Adaptive Streaming werden Videodaten in einzelne Segmente variabler Länge unterteilt und 
+getrennt gespeichert. Bei der Verwendung von H264-SVC werden die Videodaten in einzelne Layer kodiert in einer Datei 
+gespeichert. Je nach Implementation werden bei der Auslieferung des Videoconents die Layer on the Fly
+extrahiert und übertragen, oder vorab extrahiert. 
 
 \section{Videokodierung mit H264/AVC}
 Als Erweiterung des H264/AVC-Standards benutzt H264-SVC den gleichen Enkodierablauf und erweiterten diesen
@@ -704,6 +709,11 @@ bestmögliche Qualität darzustellen.
 \section{Weitere Implementierungen}
 
 \subsection{Google Talk}
+
+Itaque platea, neque cupiditate nobis amet accusantium molestie erat facilisis feugiat cras varius hymenaeos, 
+cupiditate nascetur urna potenti? Amet ducimus. Luctus, ultricies nascetur velit? Magnis explicabo donec! 
+Penatibus consectetuer nec in voluptate vehicula tellus consequat mus? Pariatur adipisci quisquam, 
+sociis accusamus praesentium. Voluptatem ad tempore! Quas proident explicabo. Ad ipsam.
 
 \subsection{MainConcept SVC}
 MainConcept bietet einen H264-SVC-Decoder innerhalb ihres kostenpflichtigen MainConcept SDKs an. In diesem 
