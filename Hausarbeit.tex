@@ -709,11 +709,48 @@ bestmögliche Qualität darzustellen.
 \section{Weitere Implementierungen}
 
 \subsection{Google Talk}
+Google Talk und Google Hangout sind Instant Messaging-Dienst, die neben Textmessaging auch Videochat
+für eine oder mehrere Personen anbieten. Google benutzt dabei eine Videokonferenzsoftware von Vidyo.
+Derzeit muß zur Nutzung noch ein Plugin installiert werden, welches in Zukunft durch die 
+Verwendung von nativen WebRTC abgelöst werden soll.
 
-Itaque platea, neque cupiditate nobis amet accusantium molestie erat facilisis feugiat cras varius hymenaeos, 
-cupiditate nascetur urna potenti? Amet ducimus. Luctus, ultricies nascetur velit? Magnis explicabo donec! 
-Penatibus consectetuer nec in voluptate vehicula tellus consequat mus? Pariatur adipisci quisquam, 
-sociis accusamus praesentium. Voluptatem ad tempore! Quas proident explicabo. Ad ipsam.
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=0.9\textwidth]{bilder/hangouts.jpg}
+	\caption[Google Hangouts]{Google Hangouts}
+	\label{fig:hangouts}
+\end{figure}
+
+Videochat in Google Talk und Google Hangout unterstützt bis jetzt den H264-SVC, H264/AVC und H263 
+Video-Codec, mit dem Scalable Baseline (SVC) und Baseline (AVC) Profile wie in der H.264-Spezifikation 
+beschrieben. H264-SVC wird, wenn verfügbar, vorrangig benutzt. H263 ist nur aus Kompatibilitätsgründen 
+angeboten.
+ 
+Die folgende Abbildung zeigt die Liste der verwendeten Codecs und deren spatiale und temporale Auflösung.
+
+\begin{lstlisting}[label=Verwendete Codecs ,captionpos=b,breaklines=true,mathescape=true]
+<payload-type id="99" name="H264-SVC">
+    <parameter name="width" value="640"/>
+    <parameter name="height" value="400"/>
+    <parameter name="framerate" value="30"/>
+  </payload-type>
+  <payload-type id="96" name="H264-SVC-draft-02">
+    <parameter name="width" value="640"/>
+    <parameter name="height" value="400"/>
+    <parameter name="framerate" value="30"/>
+  </payload-type>
+  <payload-type id="97" name="H264">
+    <parameter name="width" value="640"/>
+    <parameter name="height" value="400"/>
+    <parameter name="framerate" value="30"/>
+  </payload-type>
+  <payload-type id="98" name="H263">
+    <parameter name="width" value="640"/>
+    <parameter name="height" value="400"/>
+    <parameter name="framerate" value="30"/>
+  </payload-type>
+  
+\end{lstlisting}
 
 \subsection{MainConcept SVC}
 MainConcept bietet einen H264-SVC-Decoder innerhalb ihres kostenpflichtigen MainConcept SDKs an. In diesem 
