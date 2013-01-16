@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.3.17)  13 JAN 2013 21:02
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.3.17)  16 JAN 2013 18:28
 entering extended mode
 **Hausarbeit.tex
 ("D:\Hochschule\WS 12 13\Streaming Media\Hausarbeit\Hausarbeit.tex"
@@ -802,25 +802,25 @@ Class scrbook Warning: \float@addtolists detected!
 
 [1
 
-]
+] [2]
 Kapitel 2.
-[2
+[3
 
-] [3]
+] [4]
 Kapitel 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 129.
+(Font)              <10> on input line 133.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 129.
+(Font)              <7> on input line 133.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 129.
-[4
+(Font)              <5> on input line 133.
+[5
 
-] <bilder/typesOfLayers.jpg, id=29, 2489.3pt x 1245.65375pt>
+] <bilder/typesOfLayers.jpg, id=32, 2489.3pt x 1245.65375pt>
 File: bilder/typesOfLayers.jpg Graphic file (type jpg)
 
 <use bilder/typesOfLayers.jpg>
-Package pdftex.def Info: bilder/typesOfLayers.jpg used on input line 146.
+Package pdftex.def Info: bilder/typesOfLayers.jpg used on input line 150.
 (pdftex.def)             Requested size: 437.3457pt x 218.84799pt.
 
 
@@ -831,65 +831,65 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.160 z.\,B. Spatio–
+l.164 z.\,B. Spatio–
                     temporale Enhancementlayer \parencite[2]{SchwarzNeu.2007}.
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
-[5 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/typesOfLayers.jpg>
-] [6] <bilder/h264codec.pdf, id=40, 426.79451pt x 190.21063pt>
+[6 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/typesOfLayers.jpg>
+] [7] <bilder/h264codec.pdf, id=43, 426.79451pt x 190.21063pt>
 File: bilder/h264codec.pdf Graphic file (type pdf)
 
 <use bilder/h264codec.pdf>
-Package pdftex.def Info: bilder/h264codec.pdf used on input line 207.
+Package pdftex.def Info: bilder/h264codec.pdf used on input line 211.
 (pdftex.def)             Requested size: 460.36539pt x 205.1777pt.
- [7 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/h264codec.pdf>]
-<bilder/svc_layer2.jpg, id=67, 1815.78375pt x 478.78876pt>
+ [8 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/h264codec.pdf>]
+<bilder/svc_layer2.jpg, id=70, 1815.78375pt x 478.78876pt>
 File: bilder/svc_layer2.jpg Graphic file (type jpg)
 
 <use bilder/svc_layer2.jpg>
-Package pdftex.def Info: bilder/svc_layer2.jpg used on input line 242.
+Package pdftex.def Info: bilder/svc_layer2.jpg used on input line 246.
 (pdftex.def)             Requested size: 437.3457pt x 115.32076pt.
- [8 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/svc_layer2.jpg>]
-<bilder/base2enhancementlayer.jpg, id=71, 1852.9225pt x 441.65pt>
+ [9 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/svc_layer2.jpg>]
+<bilder/base2enhancementlayer.jpg, id=74, 1852.9225pt x 441.65pt>
 File: bilder/base2enhancementlayer.jpg Graphic file (type jpg)
 
 <use bilder/base2enhancementlayer.jpg>
 Package pdftex.def Info: bilder/base2enhancementlayer.jpg used on input line 26
-3.
+7.
 (pdftex.def)             Requested size: 437.3457pt x 104.23927pt.
- [9 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/base2enhancementl
-ayer.jpg>]
-<bilder/decode_base2enhancementlayer.jpg, id=75, 1852.9225pt x 441.65pt>
+ [10 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/base2enhancement
+layer.jpg>]
+<bilder/decode_base2enhancementlayer.jpg, id=79, 1852.9225pt x 441.65pt>
 File: bilder/decode_base2enhancementlayer.jpg Graphic file (type jpg)
 
 <use bilder/decode_base2enhancementlayer.jpg>
 Package pdftex.def Info: bilder/decode_base2enhancementlayer.jpg used on input 
-line 292.
+line 296.
 (pdftex.def)             Requested size: 437.3457pt x 104.23927pt.
 
-<bilder/svc_temporal.jpg, id=76, 1027.84pt x 294.09875pt>
+<bilder/svc_temporal.jpg, id=80, 1027.84pt x 294.09875pt>
 File: bilder/svc_temporal.jpg Graphic file (type jpg)
 
 <use bilder/svc_temporal.jpg>
-Package pdftex.def Info: bilder/svc_temporal.jpg used on input line 321.
+Package pdftex.def Info: bilder/svc_temporal.jpg used on input line 325.
 (pdftex.def)             Requested size: 437.3457pt x 125.14064pt.
- [10 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/decode_base2enha
-ncementlayer.jpg>] [11 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilde
+ [11 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/decode_base2enha
+ncementlayer.jpg>] [12 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilde
 r/svc_temporal.jpg>]
-<bilder/mpegDashSVC.jpg, id=84, 2362.8275pt x 1005.7575pt>
+<bilder/mpegDashSVC.jpg, id=87, 2362.8275pt x 1005.7575pt>
 File: bilder/mpegDashSVC.jpg Graphic file (type jpg)
 
 <use bilder/mpegDashSVC.jpg>
-Package pdftex.def Info: bilder/mpegDashSVC.jpg used on input line 372.
+Package pdftex.def Info: bilder/mpegDashSVC.jpg used on input line 376.
 (pdftex.def)             Requested size: 455.76425pt x 193.99641pt.
- [12 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/mpegDashSVC.jpg>
-] [13]
+ [13 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/mpegDashSVC.jpg>
+] [14]
 Kapitel 4.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.420 			\textbf{Modulname}&jsvm oder jsvm_
+l.424 			\textbf{Modulname}&jsvm oder jsvm_
                                            red \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -897,41 +897,41 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.421 	\end
+l.425 	\end
            {tabular}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (37.11937pt too wide) in paragraph at lines 427--434
+Overfull \hbox (37.11937pt too wide) in paragraph at lines 431--438
 \T1/lmr/m/n/12 mit al-len be-nö-ti-gen Klas-sen und Bi-blio-the-ken im Un-ter-o
 rd-ner \T1/lmr/m/it/12 jsv-m/h264Extension/build/windows\T1/lmr/m/n/12 .
  []
 
-[14
+[15
 
 ]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 439.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 443.
 
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<bilder/encoder/inputvideo.jpg, id=96, 2341.74875pt x 981.6675pt>
+<bilder/encoder/inputvideo.jpg, id=99, 2341.74875pt x 981.6675pt>
 File: bilder/encoder/inputvideo.jpg Graphic file (type jpg)
 
 <use bilder/encoder/inputvideo.jpg>
-Package pdftex.def Info: bilder/encoder/inputvideo.jpg used on input line 445.
+Package pdftex.def Info: bilder/encoder/inputvideo.jpg used on input line 449.
 (pdftex.def)             Requested size: 460.36539pt x 192.97472pt.
- [15 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/encoder/inputvid
+ [16 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/encoder/inputvid
 eo.jpg>]
-<bilder/encoder/downconvert.jpg, id=101, 713.66624pt x 369.38pt>
+<bilder/encoder/downconvert.jpg, id=105, 713.66624pt x 369.38pt>
 File: bilder/encoder/downconvert.jpg Graphic file (type jpg)
 
 <use bilder/encoder/downconvert.jpg>
-Package pdftex.def Info: bilder/encoder/downconvert.jpg used on input line 468.
+Package pdftex.def Info: bilder/encoder/downconvert.jpg used on input line 472.
 
 (pdftex.def)             Requested size: 414.32603pt x 214.44908pt.
- [16 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/encoder/downconv
+ [17 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/encoder/downconv
 ert.jpg>]
 
 ! Package inputenc Error: Keyboard character used is undefined
@@ -941,33 +941,33 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.516 $\textbf{H264AVCEncoderLibTestStaticd}$ –pf 
+l.520 $\textbf{H264AVCEncoderLibTestStaticd}$ –pf 
                                                   Konfigurationsdatei.cfg
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
-[17] <bilder/encoder/encoderDone2.jpg, id=110, 732.7375pt x 400.49625pt>
+[18] <bilder/encoder/encoderDone2.jpg, id=113, 732.7375pt x 400.49625pt>
 File: bilder/encoder/encoderDone2.jpg Graphic file (type jpg)
 
 <use bilder/encoder/encoderDone2.jpg>
-Package pdftex.def Info: bilder/encoder/encoderDone2.jpg used on input line 529
+Package pdftex.def Info: bilder/encoder/encoderDone2.jpg used on input line 533
 .
 (pdftex.def)             Requested size: 414.32603pt x 226.46413pt.
 
-<bilder/encoder/dekodieren.jpg, id=111, 712.6625pt x 380.42125pt>
+<bilder/encoder/dekodieren.jpg, id=114, 712.6625pt x 380.42125pt>
 File: bilder/encoder/dekodieren.jpg Graphic file (type jpg)
 
 <use bilder/encoder/dekodieren.jpg>
-Package pdftex.def Info: bilder/encoder/dekodieren.jpg used on input line 546.
+Package pdftex.def Info: bilder/encoder/dekodieren.jpg used on input line 550.
 (pdftex.def)             Requested size: 414.32603pt x 221.16689pt.
- [18 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/encoder/encoderD
+ [19 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/encoder/encoderD
 one2.jpg>]
-<bilder/encoder/bitstreamdebug.jpg, id=115, 722.7pt x 394.47375pt>
+<bilder/encoder/bitstreamdebug.jpg, id=118, 722.7pt x 394.47375pt>
 File: bilder/encoder/bitstreamdebug.jpg Graphic file (type jpg)
 
 <use bilder/encoder/bitstreamdebug.jpg>
 Package pdftex.def Info: bilder/encoder/bitstreamdebug.jpg used on input line 5
-63.
+67.
 (pdftex.def)             Requested size: 414.32603pt x 226.15251pt.
 
 
@@ -978,44 +978,44 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.573 ...ticd}$ InputDatei.svc OutputDatei.sv –sl 
+l.577 ...ticd}$ InputDatei.svc OutputDatei.sv –sl 
                                                   5
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
-<bilder/encoder/layerextrahiert.jpg, id=116, 720.6925pt x 379.4175pt>
+<bilder/encoder/layerextrahiert.jpg, id=119, 720.6925pt x 379.4175pt>
 File: bilder/encoder/layerextrahiert.jpg Graphic file (type jpg)
 
 <use bilder/encoder/layerextrahiert.jpg>
 Package pdftex.def Info: bilder/encoder/layerextrahiert.jpg used on input line 
-580.
+584.
 (pdftex.def)             Requested size: 414.32603pt x 218.12283pt.
- [19 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/encoder/dekodier
-en.jpg>] [20 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/encoder/
-bitstreamdebug.jpg>] [21 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bil
+ [20 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/encoder/dekodier
+en.jpg>] [21 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/encoder/
+bitstreamdebug.jpg>] [22 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bil
 der/encoder/layerextrahiert.jpg>]
 ! You can't use `macro parameter character #' in horizontal mode.
-l.638 ...ten und Client-Anforderungen anzupassen.#
+l.642 ...ten und Client-Anforderungen anzupassen.#
                                                   
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-<bilder/projekt/player.png, id=126, 399.4925pt x 202.7575pt>
+<bilder/projekt/player.png, id=130, 399.4925pt x 202.7575pt>
 File: bilder/projekt/player.png Graphic file (type png)
 
 <use bilder/projekt/player.png>
-Package pdftex.def Info: bilder/projekt/player.png used on input line 647.
+Package pdftex.def Info: bilder/projekt/player.png used on input line 651.
 (pdftex.def)             Requested size: 276.22203pt x 140.19983pt.
 
-<bilder/projekt/framework.png, id=128, 642.4pt x 300.12125pt>
+<bilder/projekt/framework.png, id=132, 642.4pt x 300.12125pt>
 File: bilder/projekt/framework.png Graphic file (type png)
 
 <use bilder/projekt/framework.png>
-Package pdftex.def Info: bilder/projekt/framework.png used on input line 664.
+Package pdftex.def Info: bilder/projekt/framework.png used on input line 668.
 (pdftex.def)             Requested size: 345.27403pt x 161.31203pt.
- [22] [23 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/projekt/pla
+ [23] [24 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/projekt/pla
 yer.png> <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/projekt/fram
 ework.png>]
 
@@ -1026,7 +1026,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.705 Bildschirm wird den “
+l.709 Bildschirm wird den “
                            low”-Layer mit einer Auflösung von 320x180 anfrag...
 
 You need to provide a definition with \DeclareInputText 
@@ -1040,7 +1040,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.705 Bildschirm wird den “low”
+l.709 Bildschirm wird den “low”
                                -Layer mit einer Auflösung von 320x180 anfrag...
 
 You need to provide a definition with \DeclareInputText 
@@ -1054,7 +1054,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.706 ...Rechenleistung zum Dekodieren die Layer “
+l.710 ...Rechenleistung zum Dekodieren die Layer “
                                                   low” bis “high” anfragen, ...
 
 You need to provide a definition with \DeclareInputText 
@@ -1068,7 +1068,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.706 ...enleistung zum Dekodieren die Layer “low”
+l.710 ...enleistung zum Dekodieren die Layer “low”
                                                    bis “high” anfragen, um die
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -1081,7 +1081,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.706 ...tung zum Dekodieren die Layer “low” bis “
+l.710 ...tung zum Dekodieren die Layer “low” bis “
                                                   high” anfragen, um die
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -1094,34 +1094,34 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.706 ...zum Dekodieren die Layer “low” bis “high”
+l.710 ...zum Dekodieren die Layer “low” bis “high”
                                                    anfragen, um die
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
-[24] <bilder/hangouts.jpg, id=141, 1280.785pt x 722.7pt>
+[25] <bilder/hangouts.jpg, id=144, 1280.785pt x 722.7pt>
 File: bilder/hangouts.jpg Graphic file (type jpg)
 
 <use bilder/hangouts.jpg>
-Package pdftex.def Info: bilder/hangouts.jpg used on input line 719.
+Package pdftex.def Info: bilder/hangouts.jpg used on input line 723.
 (pdftex.def)             Requested size: 414.32603pt x 233.78299pt.
 
-Overfull \hbox (17.40022pt too wide) in paragraph at lines 724--728
+Overfull \hbox (17.40022pt too wide) in paragraph at lines 728--732
 [][]\T1/lmr/m/n/12 Videochat in Goo-gle Talk und Goo-gle Han-gout un-ter-stützt
  bis jetzt den H264-SVC, H264/AVC
  []
 
-[25 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/hangouts.jpg>]
-<bilder/mainConcept.jpg, id=145, 1057.9525pt x 625.33624pt>
+[26 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/hangouts.jpg>]
+<bilder/mainConcept.jpg, id=148, 1057.9525pt x 625.33624pt>
 File: bilder/mainConcept.jpg Graphic file (type jpg)
 
 <use bilder/mainConcept.jpg>
-Package pdftex.def Info: bilder/mainConcept.jpg used on input line 767.
+Package pdftex.def Info: bilder/mainConcept.jpg used on input line 771.
 (pdftex.def)             Requested size: 460.36539pt x 272.11449pt.
- [26] [27 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/mainConcept
+ [27] [28 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/mainConcept
 .jpg>]
 Kapitel 5.
-[28
+[29
 
 ]
 Anhang A.
@@ -1131,7 +1131,7 @@ Anhang A.
 ! Missing number, treated as zero.
 <to be read again> 
                    \relax 
-l.819 
+l.823 
       
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -1144,7 +1144,7 @@ Anhang B.
 ! Missing number, treated as zero.
 <to be read again> 
                    \relax 
-l.819 
+l.823 
       
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -1156,7 +1156,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Missing number, treated as zero.
 <to be read again> 
                    \relax 
-l.819 
+l.823 
       
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -1171,7 +1171,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.819 
+l.823 
       
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -1184,7 +1184,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.819 
+l.823 
       
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -1192,7 +1192,7 @@ or \DeclareInputMath before using this key.
 ! Missing number, treated as zero.
 <to be read again> 
                    \relax 
-l.820 \end{document}
+l.824 \end{document}
                     
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -1227,9 +1227,9 @@ blic/lm/lmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri1
 2.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:
 /Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Fi
 les (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Hausarbeit.pdf (35 pages, 3204493 bytes).
+Output written on Hausarbeit.pdf (36 pages, 3205405 bytes).
 PDF statistics:
- 213 PDF objects out of 1000 (max. 8388607)
+ 216 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  91 words of extra memory for PDF output out of 10000 (max. 10000000)
 
