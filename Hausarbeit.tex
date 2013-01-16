@@ -401,7 +401,7 @@ Layer, sich dieser Layer bezieht und welche zuvor dekodiert werden müssen\parenc
 \chapter{H264-SVC Hands-on}
 
 \section{SVC-Referenzcodec}
-Zur Evaluation der H264-SVC-Erweiterung wird der \textit{JSVM-Codec} (Joint Scalable Video Model) verwendet. 
+Zur Evaluation der H264-SVC-Erweiterung wird der JSVM-Codec (Joint Scalable Video Model) verwendet. 
 Dieser ist der Referenzcodec des Joint Video Team (JVT), der ISO/IEC Moving Pictures Experts Group (MPEG) und 
 der ITU-T Video Coding Experts Group (VCEG). Neben dem Encoder und Decder sind im JMVC-Softwarepakets auch 
 Multiplexer und Testprogramme enthalten.
@@ -428,7 +428,7 @@ Die hier vewendete Version des Encoder ist die Version 9.19.14.
 \end{table}
 
 \subsection{Installation}
-Nach dem lokalen Download aus dem CVS der RWTH-Aachen befindet sich der Quellcode mit allen benötigen 
+Nach dem Download aus dem CVS der RWTH-Aachen befindet sich der Quellcode mit allen benötigen 
 Klassen und Bibliotheken im Unterordner \textit{jsvm/h264Extension/build/windows}. Zur Vereinfachung der 
 Installation werden bereits vorkonfigurierte Projektmappen für Microsoft Visual Studio mitgeliefert. 
 Nach Öffnen der Projektmappe in Visual Studio wird mit der Menüoption \textit{Create Batch/ 
@@ -716,7 +716,9 @@ bestmögliche Qualität darzustellen.
 
 \subsection{Google Talk}
 Google Talk und Google Hangout sind Instant Messaging-Dienst, die neben Textmessaging auch Videochat
-für eine oder mehrere Personen anbieten. Google benutzt dabei eine Videokonferenzsoftware von Vidyo.
+für eine oder mehrere Personen anbieten. Google benutzt dabei eine lizensierte  Videokonferenzsoftware 
+von Vidyo. 
+
 Derzeit muß zur Nutzung noch ein Plugin installiert werden, welches in Zukunft durch die 
 Verwendung von nativen WebRTC abgelöst werden soll.
 
@@ -728,11 +730,13 @@ Verwendung von nativen WebRTC abgelöst werden soll.
 \end{figure}
 
 Videochat in Google Talk und Google Hangout unterstützt bis jetzt den H264-SVC, H264/AVC und H263 
-Video-Codec, mit dem Scalable Baseline (SVC) und Baseline (AVC) Profile wie in der H.264-Spezifikation 
+Video-Codec, mit dem Scalable Baseline (SVC) und Baseline (AVC) Profile wie in der H/264-Spezifikation 
 beschrieben. H264-SVC wird, wenn verfügbar, vorrangig benutzt. H263 ist nur aus Kompatibilitätsgründen 
 angeboten.
  
 Die folgende Abbildung zeigt die Liste der verwendeten Codecs und deren spatiale und temporale Auflösung.
+
+\newpage
 
 \begin{lstlisting}[label=Verwendete Codecs ,captionpos=b,breaklines=true,mathescape=true]
 <payload-type id="99" name="H264-SVC">
@@ -759,14 +763,15 @@ Die folgende Abbildung zeigt die Liste der verwendeten Codecs und deren spatiale
 \end{lstlisting}
 
 \subsection{MainConcept SVC}
-MainConcept bietet einen H264-SVC-Decoder innerhalb ihres kostenpflichtigen MainConcept SDKs an. In diesem 
+MainConcept bietet einen H264-SVC-Decoder im Rahmen ihres kostenpflichtigen MainConcept SDKs an. In diesem 
 sind FFDShow-Filter und Dekoder für verschiedene Inputformate enthalten. Zum Testen dieser Filter 
 bietet MainConcept eine kostenlose Showcaseapplikation als Download an. Diese kann unter folgender URL 
 bezogen werden \url{http://www.mainconcept.com/en/products/sdks/others/showcase.html}.
 Innerhalb der Showcaseapplikation wird in jedes Video ein Wasserzeichen eingeblendet.
 
-Der SVC-Decoder bietet Möglichkeit sowohl alle Layer gleichzeitig anzuzeigen als auch selektiv nur
-einen bestimmten Layer anzuzeigen, z.B. nur Layer 0 mit der Framerate 7.5 Frames pro Sekunde.
+Der SVC-Decoder bietet sowohl die Möglichkeit alle spatialen Layer gleichzeitig anzuzeigen als auch selektiv nur
+einen bestimmten Layer anzuzeigen, z.B. nur Layer 0. Zusätzlich kann die Layerauswahl anhand der eingebetteten
+temporalen Layer z.B. Layer mit der Framerate 7.5 Frames pro Sekunde erfolgen.
 
 \begin{figure}[htb]
 	\centering
@@ -778,7 +783,7 @@ einen bestimmten Layer anzuzeigen, z.B. nur Layer 0 mit der Framerate 7.5 Frames
 \subsection{OpenSVC Decoder}
  Der OpenSVC Decoder kann auf folgender Website heruntergeladen werden 
  (\url{http://sourceforge.net/projects/opensvcdecoder/}) Im Lieferumfang befinden sich im Verzeichnis  
- "`Mplayer"' eine speziell angepasste Version des MPplayers. Dieder lässt sich sowohl unter Windows mit Hilfe
+ "`Mplayer"' eine speziell angepasste Version des MPplayers. Dieser lässt sich sowohl unter Windows mit Hilfe
  von MinGW als auch unter Linux installieren.
  
 Die Konfiguration der Installation unter Linux erfolgt durch den Aufruf des Befehls "`configure --enable-svc"' 
@@ -786,6 +791,7 @@ im Verzeichnis Mplayer der heruntergeladenen Datei. Die Installation wird durch 
 "`make install"' und anschließend "`install"' abgeschlossen.
 
 Der Aufruf der Videodatei und die Auswahl des Layers erfolgt auf der Kommandozeile mit folgender Syntax: 
+\\
 \begin{lstlisting}[label=Encoder,caption=Aufruf OpenSVC Decoder ,captionpos=b,breaklines=true,mathescape=true]
 $\textbf{mplayer}$ -fps 25 InputVideodatei.264 setlayer X
 \end{lstlisting}

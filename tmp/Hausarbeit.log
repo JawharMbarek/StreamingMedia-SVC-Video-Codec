@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.3.17)  16 JAN 2013 19:21
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.3.17)  16 JAN 2013 19:31
 entering extended mode
 **Hausarbeit.tex
 ("D:\Hochschule\WS 12 13\Streaming Media\Hausarbeit\Hausarbeit.tex"
@@ -902,12 +902,6 @@ l.425 	\end
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-
-Overfull \hbox (37.11937pt too wide) in paragraph at lines 431--438
-\T1/lmr/m/n/12 mit al-len be-nö-ti-gen Klas-sen und Bi-blio-the-ken im Un-ter-o
-rd-ner \T1/lmr/m/it/12 jsv-m/h264Extension/build/windows\T1/lmr/m/n/12 .
- []
-
 [15
 
 ]
@@ -1103,10 +1097,10 @@ or \DeclareInputMath before using this key.
 File: bilder/hangouts.jpg Graphic file (type jpg)
 
 <use bilder/hangouts.jpg>
-Package pdftex.def Info: bilder/hangouts.jpg used on input line 725.
+Package pdftex.def Info: bilder/hangouts.jpg used on input line 727.
 (pdftex.def)             Requested size: 414.32603pt x 233.78299pt.
 
-Overfull \hbox (17.40022pt too wide) in paragraph at lines 730--734
+Overfull \hbox (17.40022pt too wide) in paragraph at lines 732--736
 [][]\T1/lmr/m/n/12 Videochat in Goo-gle Talk und Goo-gle Han-gout un-ter-stützt
  bis jetzt den H264-SVC, H264/AVC
  []
@@ -1116,10 +1110,14 @@ Overfull \hbox (17.40022pt too wide) in paragraph at lines 730--734
 File: bilder/mainConcept.jpg Graphic file (type jpg)
 
 <use bilder/mainConcept.jpg>
-Package pdftex.def Info: bilder/mainConcept.jpg used on input line 773.
+Package pdftex.def Info: bilder/mainConcept.jpg used on input line 778.
 (pdftex.def)             Requested size: 460.36539pt x 272.11449pt.
- [27] [28 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/mainConcept
-.jpg>]
+ [27]
+Underfull \hbox (badness 10000) in paragraph at lines 793--795
+
+ []
+
+[28 <D:/Hochschule/WS 12 13/Streaming Media/Hausarbeit/bilder/mainConcept.jpg>]
 Kapitel 5.
 [29
 
@@ -1131,7 +1129,7 @@ Anhang A.
 ! Missing number, treated as zero.
 <to be read again> 
                    \relax 
-l.825 
+l.831 
       
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -1144,7 +1142,7 @@ Anhang B.
 ! Missing number, treated as zero.
 <to be read again> 
                    \relax 
-l.825 
+l.831 
       
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -1156,7 +1154,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Missing number, treated as zero.
 <to be read again> 
                    \relax 
-l.825 
+l.831 
       
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -1171,7 +1169,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.825 
+l.831 
       
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -1184,7 +1182,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.825 
+l.831 
       
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -1192,7 +1190,7 @@ or \DeclareInputMath before using this key.
 ! Missing number, treated as zero.
 <to be read again> 
                    \relax 
-l.826 \end{document}
+l.832 \end{document}
                     
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -1212,7 +1210,7 @@ Here is how much of TeX's memory you used:
  14870 multiletter control sequences out of 15000+200000
  71743 words of font info for 51 fonts, out of 3000000 for 9000
  719 hyphenation exceptions out of 8191
- 45i,11n,60p,828b,3127s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,11n,60p,828b,3070s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files (x86)/
 MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}<C:/Program Files (x86)/MiKTeX 2.9/
@@ -1227,7 +1225,7 @@ blic/lm/lmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri1
 2.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:
 /Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Fi
 les (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Hausarbeit.pdf (36 pages, 3205478 bytes).
+Output written on Hausarbeit.pdf (36 pages, 3205142 bytes).
 PDF statistics:
  216 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
