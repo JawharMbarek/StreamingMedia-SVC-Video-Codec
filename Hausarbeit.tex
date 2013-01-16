@@ -185,7 +185,7 @@ Als Erweiterung des H264/AVC-Standards benutzt H264-SVC den gleichen Enkodierabl
 in wenigen Bereichen, um Skalierbarkeit zu ermöglichen. Die Videkodierung mit H264/AVC erfolgt in vier 
 Teilschritten. Zuerst wird der aktuelle Videoframe (\textit{F}) in mehrere Slices unterteilt, die wiederum 
 Makroblöcke enthalten \parencite[146]{Hottong.2009}. 
-In jedem Makroblock sind die Luminanz und Chrominazwerte gespeichert. Aufgrund des Chromasubsamplings liegen 
+In jedem Makroblock sind die Luminanz und Chrominanzwerte gespeichert. Aufgrund des Chromasubsamplings liegen 
 die Luminanzwerte in den meisten Fällen nur mit halbierter Auflösung vor.
 
 Die Größe der Makroblöcke ist auf 16x 16 Pixel festgelegt. Makroblöcke können wiederum in verschiedene 
@@ -577,7 +577,7 @@ folgender Syntax von der Kommandozeile auf:
 $\textbf{BitStreamExtractorStaticd}$ InputDatei.svc OutputDatei.sv –sl 5
 \end{lstlisting}
 
-Als Resultät erhält man eine neue valide H264-SVC-kodierte Videodatei, die nur die Layer 0 bis 5 enthält.
+Als Resultat erhält man eine neue valide H264-SVC-kodierte Videodatei, die nur die Layer 0 bis 5 enthält.
 
 \begin{figure}[htb]
 	\centering	
@@ -587,26 +587,28 @@ Als Resultät erhält man eine neue valide H264-SVC-kodierte Videodatei, die nur d
 \end{figure}
 
 \subsection{Evaluation}
-Der JSVM-Referenzcode ist ein sehr mächtiges Tool und derzeit das einzige frei verfügbare Programm, um
-H264-SVC Videodateien zu erzeugen. Die Installation ist durch ein Vorkonfiguriertes Visualstudioprojekt 
+Der JSVM-Referenzcode ist ein sehr vielseitiges Tool und derzeit die einzige frei verfügbare Anwendung, um
+H264-SVC Videodateien zu erzeugen. Die Installation ist durch ein vorkonfiguriertes Visualstudioprojekt 
 sehr einfach und funktioniert problemlos. 
 
-Die Arbeit mit dem Codec ist über die Kommandozeile und Eingabeparameter nicht sehr konfortable, 
-vereinfacht aber dafür die Einbindung in andere Programmen. Die mitgelieferte Dokumentation und
-Beispielprojekte machen es relativ zügig möglich selber mit dem Codec zu experimentieren. Allerdings
-gibt der Codec selbst nur wenig Hinweis, warum manche Settings nicht funktionieren   
+Die Arbeit mit dem Codec ist über die Kommandozeile und Eingabeparameter nicht sehr komfortable, 
+vereinfacht aber dafür die Einbindung in andere Programme. Die mitgelieferte Dokumentation und
+Beispielprojekte machen es relativ einfach möglich selber mit dem Codec zu experimentieren. 
+Allerdings gibt der Codec selbst nur wenig Hinweis und Fehlermeldungen, warum manche Settings 
+nicht funktionieren und zum Ablauf des Enkodierdurchlaufs führen.   
 
 Das große Problem des JSVM-Codecs sind die Geschwindigkeit der Enkodierung und die möglichen 
-Ausgangsformate. Diese beiden Aspekte machen jegliche Verwendung in Realanwendungen unmöglich.
+Ausgangsformate. Diese beiden Aspekte machen jegliche Verwendung in Realanwendungen derzeit unmöglich.
 Der Codec läuft nur auf einem Prozessorkern und nutzt dadurch die Möglichkeiten modernern PCs
-nicht. Dadurch ist die Enkodierung sehr langsam. 
-Bei regulärem CIF und QCIF Videos bentrug die Geschwidgkeit ca. 5 bis 6 Sekunden pro Frame. Bei 
-Testreihen mit HD-Material dauerte die Enkodierung von 100 Frames mehrere Stunden. 
-Zusätzlich unterstützt der Codec derzeit als Eingabeformat nur YUV-Video wodurch eine sinnvolle 
+nicht. Dadurch ist die Enkodierung sehr langsam udn zeitraubend.
+
+Bei regulärem CIF und QCIF Videos betrug die Geschwindgkeit ca. 5 bis 6 Sekunden pro Frame. Bei 
+Testreihen mit HD-Material dauerte die Enkodierung von 100 Frames mehr als fünf Stunden. 
+Zusätzlich unterstützt der Codec derzeit als Ein- und Ausgabeformat nur YUV-Video wodurch eine sinnvolle 
 Speicherung des Eingangsmaterials bei HD-Auflösung nicht möglich ist.
 
 Der JSVM-Referenzcode ist daher er als Proof of Concept zu verstehen, um interessierte Anwender mit 
-H264-SVC bekannt zu machen und diesen eine technische Basis zu geben. 
+H264-SVC bekannt zu machen und diesen eine technische Basis zum Experimentieren zu geben. 
 
 \section{Scalable Streaming Projekt}
 
